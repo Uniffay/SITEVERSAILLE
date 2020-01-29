@@ -253,3 +253,5 @@ iframe.YTVid{
 	max-width: relative;
 	max-height: relative;
 }
+a { color: black; /*par exemple, pour le comportement standart*/ }
+a:hover { color: #f7af3e;}

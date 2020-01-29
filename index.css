@@ -7,12 +7,12 @@
 @font-face {
 	font-family:"Dyno";
 	font-style:italic;
-	src: url('Police/Dyno Italic.ttf');	
+	src: url('Police/Dyno Italic.ttf');
 }
 @font-face {
 	font-family:"Dyno";
 	font-weigth: bold;
-	src: url('Police/Dyno Bold.ttf');	
+	src: url('Police/Dyno Bold.ttf');
 }
 @font-face {
 	font-family:"Cicle";
@@ -21,7 +21,7 @@
 @font-face {
 	font-family:"Cicle";
 	font-style:italic;
-	src: url('Police/Cicle Fina Italic.ttf');	
+	src: url('Police/Cicle Fina Italic.ttf');
 }
 
 * {
@@ -74,7 +74,7 @@ body{
 
 /*Boîte flex CSS contenant le titre en haut de la page et sous titre*/
 .header{
-    padding: 60px;
+    padding: 5%;
     font-size: 30px;
     text-align: center;
     background-color: #333333;
@@ -115,7 +115,7 @@ ul.navbar {
     background-color: rgb(248, 176, 62);
 }
 
-/*(Ne sert à rien mais peut servir :) ) 
+/*(Ne sert à rien mais peut servir :) )
 .navbar li.dropdown {}*/
 
 /*Disposition des choix des menus déroulant de certains objets de la liste/barre de navigation*/
@@ -232,7 +232,7 @@ iframe.GForm{
         float: middle;
         font-size: 50%;
     }
-	
+
 	iframe.GForm{
 		width: 100%;
 		height: relative;
@@ -242,7 +242,7 @@ iframe.GForm{
 /* Peut servir à créer des textes avec une image dans son "alinéa" mais ne servant pas à l'heure actuel*/
 .imgGauche{
     float: left;
-    padding: 20px; 
+    padding: 20px;
 }
 
 .textImgGauche{

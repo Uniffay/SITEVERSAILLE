@@ -16,14 +16,14 @@ session_start();
             <!-- zone de connexion -->
 
             <form action="verification2.php" method="POST">
-                <h1>Inscription</h1>
-                <label><b>Nom d'utilisateur</b></label>
-                <input type="text" placeholder="Entrez votre nom d'utilisateur" name="username" required>
+                <h1><?php echo enter?></h1>
+                <label><b><?php echo username?></b></label>
+                <input type="text" placeholder=<?php echo enter?> name="username" required>
 
-                <label><b>Mot de passe</b></label>
-                <input type="password" placeholder="Entrez votre mot de passe" name="password" required>
-                <label><b>Confirmez votre mot de passe</b></label>
-                <input type="password" placeholder="Confirmez votre mot de passe" name="password2" required>
+                <label><b><?php echo password?></b></label>
+                <input type="password" placeholder=<?php echo enter?> name="password" required>
+                <label><b><?php echo confirmPassword?></b></label>
+                <input type="password" placeholder=<?php echo enter?> name="password2" required>
 
                 <input type="submit" id='submit' value='REGISTER' >
                 <?php

@@ -7,11 +7,11 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-              <h2> Quelques conseils pour préparer sa visite...</h2>
+              <h2><?php echo introVisite?></h2>
 
               <p>
-                La nourriture coûte très cher à proximité du château... Pensez à préparer à manger avant ou alors emmenez un pique-nique !
-                Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.
+                <?php echo contenu1_prepVisite?>
+                <?php echo contenu2_prepVisite?>
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->

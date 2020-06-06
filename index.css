@@ -261,16 +261,7 @@ iframe.GForm{
     .navbar li a, .navbar .navbar .dropbtn,{
         display: block;
     }
-
-    .YTVid, img , .Pagures{
-        width: 75%;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-        float: middle;
-        font-size: 50%;
-    }
-
+		
 	iframe.GForm{
 		width: 100%;
 		height: relative;

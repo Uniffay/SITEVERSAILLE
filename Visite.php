@@ -7,52 +7,52 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-                <h1>Organiser sa visite</h1>
+                <h1><?php echo organiser_visite?></h1>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168125.76201210462!2d1.853839449199484!3d48.82072863645609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67d94d7b14c75%3A0x538fcc15f59ce8f!2sCh%C3%A2teau%20de%20Versailles!5e0!3m2!1sfr!2sfr!4v1578430389274!5m2!1sfr!2sfr"
 				width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" align = "right"></iframe>
 				<p>
-				Informations Générales
+				<?php echo information_visite?>
 				<br>
-				<h2>Visites:</h2>
+				<h2><?php echo visite_visite?></h2>
 				</p>
 				<p>
 				<br>
-					> Durée moyenne de la visite:
+					> <?php echo duree_visite?>
 				<br>
-					90 minutes
+					<?php echo time_visite?>
 				<br>
 				<br>
-				<h2>Type de patrimoine culturel:</h2>
+				<h2><?php echo type_visite?></h2>
 				</p>
 				<p>
 				<br>
-					> Site et monuments historiques
+					> <?php echo site_visite?>
 				<br>
 				<br>
-				<h2>Patrimoine historique:</h2>
+				<h2><?php echo patrimoine_visite?></h2>
 				</p>
 				<p>
 				<br>
-					> Château
+					> <?php echo chateau_visite?>
 				<br>
-					> Jardins
+					> <?php echo jardin_visite?>
 				<br>
-				   > Palais des glaces
+				   > <?php echo glace_visite?>
 				<br>
-				   > Parc
+				   > <?php echo parc_visite?>
 				<br>
-				   > Ecuries
+				   > <?php echo ecuries_visite?>
 				<br>
 				<br>
-				<h2>Période:</h2>
+				<h2><?php echo periode_visite?></h2>
 				</p>
 				<p>
 				<br>
-					> XVIIe siècle
+					> <?php echo siecle1_visite?>
 				<br>
-					> XVIIIe siècle
+					> <?php echo siecle2_visite?>
 				<br>
-					> XIXe siècle
+					> <?php echo siecle3_visite?>
 				</p>
                 <img src=" "/>
             </div>

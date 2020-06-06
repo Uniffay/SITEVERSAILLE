@@ -6,10 +6,10 @@
                 <a href="javascript:void(0)" class="dropbtn"> <?php echo information?> </a>
                     <div class="dropdown-content">
                         <a href="Chateau.php"><?php echo chateau?></a>
-                        <a href="Visite.php">Visite</a>
+                        <a href="Visite.php"><?php echo visite?></a>
                     </div>
             </li>
-            <li><a href="histoire.php"><?php echo visite?></a></li>
+            <li><a href="histoire.php"><?php echo histoire?></a></li>
             <li><a href="prepvisite.php"><?php echo prepvisite?></a></li>
             <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
             <img src="Images/français.png" height = "16px"

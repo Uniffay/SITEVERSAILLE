@@ -8,6 +8,13 @@
             <!--Partie gauche du milieu de la page-->
             <div class="main">
               <h2><?php echo frise_histoire?></h2>
+              <?phpif($_GET["lang"]){
+                  echo "<img src=\"$http_image\"/>\n";
+              }
+              else{
+                  echo "<img src=\"uploads/$username/noprofile.png\"/>\n";
+              } 
+              ?>
               <img class = "frise" src="Images/frise.png" alt="Frise"/>
 
             </div>

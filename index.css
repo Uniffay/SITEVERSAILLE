@@ -261,7 +261,7 @@ iframe.GForm{
     .navbar li a, .navbar .navbar .dropbtn,{
         display: block;
     }
-		
+
 	iframe.GForm{
 		width: 100%;
 		height: relative;
@@ -318,4 +318,8 @@ a:hover { color: #f7af3e;}
 		display: block;
     margin-left: auto	;
     margin-right: auto;
+}
+
+map area{
+	outline:0;
 }

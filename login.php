@@ -1,55 +1,60 @@
-
 <?php
-session_start ();
-?>
+session_start();
+ ?>
 
-<?php
-  if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
-    $login = $_POST['login'];
-    $mdp = $_POST['mdp'];
+ <?php
+   if (isset($_POST['submit']) && $_POST['submit'] == 'LOGIN') {
+     include_once('Includes/connexion.php');
+     $login = $_POST['login'];
+     $mdp = $_POST['mdp'];
 
 
 
-    $results=$dbh->query("SELECT login,password FROM user WHERE login = '$login' AND password = '$mdp'");
+     $results=$dbh->query("SELECT login,password FROM user WHERE login = '$login' AND password = '$mdp'");
 
-    $ligne = $results->fetch();
-    $login_valide = $ligne['login'];
-    $pwd_valide = $ligne['password'];
+     $ligne = $results->fetch();
+     $login_valide = $ligne['login'];
+     $pwd_valide = $ligne['password'];
 
-    if (isset($login) && isset($mdp)) {
-      
-      if ($login_valide == $login && $pwd_valide == $mdp) {
+     if (isset($login) && isset($mdp)) {
 
-        $_SESSION['login'] = $login;
-        $_SESSION['pwd'] = $mdp;
-?>
+       if ($login_valide == $login && $pwd_valide == $mdp) {
+
+         $_SESSION['login'] = $login;
+         $_SESSION['pwd'] = $mdp;
+         header('Location: index.php');
+       }
+       else {
+         echo "La connexion a échoué. Nom d'utilisateur ou mot de passe incorrect.";
+       }
+     }
+   }
+ ?>
 
 <html>
+  <head>
+     <meta charset="utf-8">
+      <!-- importer le fichier de style -->
+      <link rel="stylesheet" href="style2.css" media="screen" type="text/css" />
+  </head>
   <?php include_once('includes/header.php') ?>
-  <title>Se connecter</title>
   <body>
   <?php include_once('includes/navbar.php')?>
-        <!--Milieu de la page contenant deux parties-->
-        <div class="row">
-            <!--Partie gauche du milieu de la page-->
-            <div class="main">
-              <h1>Formulaire d'authentification</h1>
-              <form action="login.php" method="post">
-              Login <input type="text" name="login" size="25"  /><br>
-              Mot de passe <input type="password" name="mdp" size="25" /><br>
-              <input type="reset" name="submit" value="Effacer" />
-              <input type="submit" name="submit" value="Envoyer" />
-              </form>
 
-            </div>
-            <!--Fin de la partie gauche du milieu de la page-->
-            <!--Partie gauche du milieu de la page-->
-            <div class="side">
-              <?php include_once('includes/billeterie.php') ?>
-            </div>
-            <!--Fin de la partie droite du milieu de la page-->
+        <div id="container">
+            <!-- zone de connexion -->
+
+            <form action="login.php" method="POST">
+                <h1>Connexion</h1>
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="login" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="mdp" required>
+
+                <input type="submit" id='submit' value='LOGIN' >
+            </form>
         </div>
-        <!--Fin du milieu de la page-->
         <?php include_once('includes/footer.php') ?>
     </body>
 </html>

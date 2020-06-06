@@ -175,28 +175,61 @@ ul.navbar {
 		color: white;
 }
 
-/*Boîte flex CSS contenant les informations pour contacter et des liens spécifiques vers d'autres pages du site placé en bas du site*/
+.footer {
+    background-color: #505050;
+    background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+border-top: 0;
+background-size: auto;
+padding-top: 0;
+padding-bottom: 0;
+    color: #505050;
+    display: inline;
+
+
+}
+
+.footer-2{
+  width: 100%;
+margin: 0 auto;
+padding: 32px 12px 12px 12px;
+display: flex;
+flex-flow: row wrap;
+  color: #ea5c0d;
+  float: middle;
+  background: #505050;
+}
+
+/*
+/*Boîte flex CSS contenant les informations pour contacter et des liens spécifiques vers d'autres pages du site placé en bas du site
 .footer{
     display: flex;
-		flex-wrap: auto;
-    padding: 10px;
+	  flex-wrap: auto;
+    padding: 5px;
     text-align: center;
     background: #505050;
     float: middle;
     margin-right: 0 auto;
     margin-left: 0 auto;
-	color: #ea5c0d;
+	  color: #ea5c0d;
 }
-
+*/
 /*Disposition des informations de la boîte flex CSS "footer"*/
-.footer#Infos1, .footer#Infos2, .footer#Infos3, .footer#Infos4{
-		flex: 25%;
-    padding: 20px;
+div#Infos1, div#Infos2, div#Infos3, div#Infos4, div#Infos5, div#Infos6{
+	flex: ;
+  padding: 20px 20px 20px 20px;
+  margin-right: 100px auto;
+  margin-left: 100px auto;
+  text-align: center;
+  float: middle;
 }
 
 /*Disposition des textes et liens des informations de la boîte flex CSS "footer"*/
-.footer pre{
-	width: 330px;
+.footer-2 p{
+	width: 100%;
+  margin-right: 10 auto;
+  margin-left: 10 auto;
 }
 
 /*Disposition global des images dans la boîte flex CSS "main"*/
@@ -213,9 +246,10 @@ iframe.GForm{
 	height: 500px;
 }
 
+
 /*Change la disposition complète de la page pour s'adapter aux tailles du navigateur (par exemple en fonction de l'appareil utilisé), tous sera disposé en une colonne*/
 @media screen and (max-width: 1000px) {
-    .row, .navbar, .navbar .dropdown-content, .navbar .dropdown-content a , .footer, img{
+    .row, .navbar, .navbar .dropdown-content, .navbar .dropdown-content a , .footer-2, img{
         position: relative;
         flex-direction: column;
         text-align: center;

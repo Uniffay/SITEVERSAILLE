@@ -1,7 +1,7 @@
 <!--Barre de navigation-->
 <div class="navbar">
     <ul class="navbar">
-            <li><a href="index.php" class="active">Accueil</a></li>
+            <li><a href="index.php">Accueil</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Informations</a>
                     <div class="dropdown-content">

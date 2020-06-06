@@ -38,6 +38,7 @@ h1,h2 {
 p,pre {
 	font-family: "Cycle", Arial, sans-serif;
 }
+
 h1 {
 	font-style: normal;
 	font-weigth: bold;
@@ -70,6 +71,7 @@ pre {
 /*Va enlever les marges sur les côtés de la page*/
 body{
     margin:0;
+		overflow-x: hidden;
 }
 
 /*Boîte flex CSS contenant le titre en haut de la page et sous titre*/
@@ -77,8 +79,9 @@ body{
     padding: 5%;
     font-size: 30px;
     text-align: center;
-    background-color: #333333;
-	color: #fff;
+    background: url("Images/Chateau.jpg") no-repeat;
+		background-size: cover;
+		color: #fff;
 }
 
 /*Boîte flex CSS contenant la barre de navigation*/
@@ -140,7 +143,7 @@ ul.navbar {
 /*Spécifie la couleur de l'arrière plan des objets secondaires de la liste/barre de navigation lorsque la souris est positionné au dessus*/
 .navbar .dropdown-content a:hover {
     background-color: #f7af3e;
-	color: white;
+		color: white;
 }
 
 /*Disposition basique choix des menus déroulant de certains objets de la liste/barre de navigation*/
@@ -152,7 +155,7 @@ ul.navbar {
 .row{
     display: flex;
     flex-wrap: auto;
-	font-size:auto;
+		font-size:auto;
 }
 
 /*Boîte de flex CSS contenant les informations importantes de la page web comme des articles et placé à gauche de page dans le "row"*/
@@ -160,7 +163,7 @@ ul.navbar {
     flex: 70%;
     background-color: white;
     padding: 20px;
-	margin-left: 150px;
+		margin-left: 150px;
 }
 
 /*Boîte flex CSS contenant les informations secondaires de la page web et placé à droite de la pge dans le "row"*/
@@ -168,14 +171,14 @@ ul.navbar {
     flex: 30%;
     background-color: #333333;
     padding: 20px;
-	margin-left: 100px;
-	color: white;
+		margin-left: 100px;
+		color: white;
 }
 
 /*Boîte flex CSS contenant les informations pour contacter et des liens spécifiques vers d'autres pages du site placé en bas du site*/
 .footer{
     display: flex;
-	flex-wrap: auto;
+		flex-wrap: auto;
     padding: 10px;
     text-align: center;
     background: #505050;
@@ -187,7 +190,7 @@ ul.navbar {
 
 /*Disposition des informations de la boîte flex CSS "footer"*/
 .footer#Infos1, .footer#Infos2, .footer#Infos3, .footer#Infos4{
-	flex: 25%;
+		flex: 25%;
     padding: 20px;
 }
 
@@ -216,8 +219,8 @@ iframe.GForm{
         position: relative;
         flex-direction: column;
         text-align: center;
-		width: relative;
-		height: relative;
+				width: relative;
+				height: relative;
     }
 
     .navbar li a, .navbar .navbar .dropbtn,{
@@ -255,3 +258,28 @@ iframe.YTVid{
 }
 a { color:#ea5c0d ; /*par exemple, pour le comportement standart*/ }
 a:hover { color: #f7af3e;}
+
+.image{
+	height: 500px;
+	width: 1000px;
+	animation: slider 10s infinite;
+}
+
+@keyframes slider {
+	0%{
+		background: url("Images/Chateau.jpg");
+		background-size: cover;
+	}
+	33%{
+		background: url("Images/Chateau.jpg");
+		background-size: cover;
+	}
+	66%{
+		background: url("Images/srek.jpg");
+		background-size: cover;
+	}
+	100%{
+		background: url("Images/mcn.png");
+		background-size: cover;
+	}
+}

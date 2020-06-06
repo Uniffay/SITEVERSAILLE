@@ -11,9 +11,7 @@
                 <h1 style="text-align: center">Welcome to Versailles</h1>
                 <!--Slider présentation du chateau-->
                     <p>
-						<img class = "chateau" src="Images/Chateau.jpg"
-						alt="Château" height = "400" width = "600"
-						style = "margin: 0:auto"/>
+						<img class = "chateau" src="Images/Chateau.jpg" alt="Château" height = "400" width = "600"style = "margin: 0:auto"/>
                     </p> <hr/>
                     <!--Fin du slider présentation du chateau-->
                 <h1>Presentation</h1>

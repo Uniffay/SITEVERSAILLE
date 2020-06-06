@@ -13,7 +13,7 @@ define("chateau", "Palace");
 define("visite", "Visit");
 define("prepvisite", "Planing your visit");
 define("connect", "Sign In");
-define("inscire", "Sign Out");
+define("inscrire", "Sign Out");
 
 //footer
 

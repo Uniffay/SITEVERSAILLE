@@ -1,6 +1,6 @@
 <?php 
 if (!isset($_GET["lang"])) {
-    $lang = "en";
+    $_GET["lang"] = "en";
 }
 
 if ($_GET["lang"] === "fr") {

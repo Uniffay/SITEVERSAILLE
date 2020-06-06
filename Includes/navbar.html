@@ -3,9 +3,9 @@
     <ul class="navbar">
             <li><a href="index.php" class="active">Accueil</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Informations</a>
+                <a href="javascript:void(0)" class="dropbtn"><?php echo Information</a>
                     <div class="dropdown-content">
-                        <a href="Chateau.php">Château</a>
+                        <a href="Chateau.php"> <?php echo chateau ?></a>
                         <a href="Visite.php">Visite</a>
                     </div>
             </li>

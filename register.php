@@ -22,6 +22,7 @@ session_start();
 
                 <label><b>Mot de passe</b></label>
                 <input type="password" placeholder="Entrez votre mot de passe" name="password" required>
+                <label><b>Confirmez votre mot de passe</b></label>
                 <input type="password" placeholder="Confirmez votre mot de passe" name="password2" required>
 
                 <input type="submit" id='submit' value='REGISTER' >

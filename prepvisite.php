@@ -8,7 +8,7 @@
             <!--Partie gauche du milieu de la page-->
             <div class="row">
               <div class="main">
-                  <h2><?php echo introVisite?></h2>
+                  <h3><?php echo introVisite?></h3>
 
                   <p>
                     <?php echo contenu1_prepVisite?>

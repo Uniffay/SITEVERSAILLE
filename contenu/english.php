@@ -11,7 +11,6 @@ define("accueil", "Home");
 define("information", "Information");
 define("chateau", "Palace");
 define("visite", "Visit");
-define("histoire", "History");
 define("prepvisite", "Planing your visit");
 define("connect", "Sign In");
 define("inscrire", "Sign Out");
@@ -70,4 +69,10 @@ define("siecle3_visite", "XIXth century");
 //histoire
 
 define("frise_histoire", "Timeline retracing the history of the Palace of Versailles");
+
+//prep visite
+define("introVisite","A few tips to prepare for your visit...");
+define("contenu1_prepVisite","Food is very expensive near the Château... Remember to prepare food beforehand or take a picnic!");
+define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We advise you to visit the most emblematic places of the site such as the Hall of Mirrors for example.
+");
 ?>

@@ -32,7 +32,7 @@ if(isset($_POST['username']) && isset($_POST['password']))
           catch(Exception $e){
             die("L'inscription a échouée !".$e->getMessage());
           }
-            header('Location: login.php');
+            header('Location: index.php');
           }
         else
         {

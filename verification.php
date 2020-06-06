@@ -2,7 +2,7 @@
 session_start();
 if(isset($_POST['username']) && isset($_POST['password']))
 {
-    include('connexion.php');
+    include('includes/connexion.php');
 
     $username = $_POST['username'];
     $password = $_POST['password'];

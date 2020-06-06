@@ -7,7 +7,11 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
+<<<<<<< HEAD
                 <h1>Présentation Château : </h1>
+=======
+                <h2>Présentation Château</h2>
+>>>>>>> e7e01f4e6345ed10d30fbd13b222ba3f3c446237
 				<p>
 				Inscrit depuis 1979 au patrimoine mondial de l'UNESCO, le château de Versailles fût construit par Louis XIII puis agrandit par son fils Louis XIV.
 				<br>

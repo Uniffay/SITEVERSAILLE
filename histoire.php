@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <?php include_once('includes/header.php') ?>
   <body>
@@ -7,12 +7,9 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-                <h1 style="text-align: center">Bienvenue à Versailles</h1>
-                <div class="slide">
-                  <div class="image">
+              <h2>Frise chronologique retraçant l'histoire du Château de Versailles</h2>
+              <img class = "frise" src="Images/frise.png" alt="Frise"/>
 
-                  </div>
-                </div>
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->

@@ -11,6 +11,7 @@ define("accueil", "Home");
 define("information", "Information");
 define("chateau", "Palace");
 define("visite", "Visit");
+define("histoire", "History");
 define("prepvisite", "Planing your visit");
 define("connect", "Sign In");
 define("inscrire", "Sign Out");

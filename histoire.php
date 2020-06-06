@@ -8,10 +8,10 @@
       <h1><?php echo frise_histoire;?></h1>
        <?php
           if($_GET["lang"] === "fr"){
-              echo "<img class = \"frise\" src=\"Images/frise.png\" alt=\"Frise\"/>";
+              echo "<img class = \"frise\" src=\"Images/frise.png\" alt=\"Frise\" usemap=\"#image-map\"/>";
           }
           else{
-              echo "<img class = \"frise\" src=\"Images/frise_eng.png\" alt=\"Frise\"/>";
+              echo "<img class = \"frise\" src=\"Images/frise_eng.png\" alt=\"Frise\" usemap=\"#image-map\"/>";
           }?>
       <map name="image-map">
           <area target="_blank" alt="LouisXIII" title="LouisXIII" href="LouisXIII" coords="311,43,459,145" shape="rect">

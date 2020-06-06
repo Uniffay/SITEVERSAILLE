@@ -11,6 +11,9 @@ define("accueil", "Home");
 define("information", "Information");
 define("chateau", "Palace");
 define("visite", "Visit");
+define("prepvisite", "Planing your visit");
+define("connect", "Sign In");
+define("inscire", "Sign Out");
 
 //footer
 
@@ -53,8 +56,8 @@ define("parc_visite", "Park");
 define("ecuries_visite", "Stables");
 define("periode_visite", "Period:");
 define("siecle1_visite", "XVIIth century");
-define("siecle1_visite", "XVIIIth century");
-define("siecle1_visite", "XIXth century");
+define("siecle2_visite", "XVIIIth century");
+define("siecle3_visite", "XIXth century");
 
 //histoire
 

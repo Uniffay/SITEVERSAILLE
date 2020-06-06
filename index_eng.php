@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <?php include_once('includes/header_en.html');
-          include_once('includes/navbar_en.html')?>
+    <?php include_once('includes/header_en.php');
+          include_once('includes/navbar_en.php')?>
 
         <!--Milieu de la page contenant deux parties-->
         <div class="row">
@@ -27,6 +27,6 @@
         </div>
         <!--Fin du milieu de la page-->
         <!--Bas de la page-->
-        <?php include_once('includes/footer_en.html')?>
+        <?php include_once('includes/footer_en.php')?>
     </body>
 </html>

@@ -55,4 +55,8 @@ define("periode_visite", "Period:");
 define("siecle1_visite", "XVIIth century");
 define("siecle1_visite", "XVIIIth century");
 define("siecle1_visite", "XIXth century");
+
+//histoire
+
+define("frise_histoire", "Timeline retracing the history of the Palace of Versailles")
 ?>

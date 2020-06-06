@@ -56,4 +56,8 @@ define("siecle1_visite", "XVIIe siècle");
 define("siecle1_visite", "XVIIIe siècle");
 define("siecle1_visite", "XIXe siècle");
 
+//histoire
+
+define("frise_histoire", "Frise chronologique retraçant l'histoire du Château de Versailles");
+
 ?>

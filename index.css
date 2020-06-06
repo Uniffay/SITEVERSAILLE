@@ -79,7 +79,7 @@ body{
     padding: 5%;
     font-size: 30px;
     text-align: center;
-    background: url("Images/Chateau.jpg") no-repeat;
+    background: url("Images/images.png") no-repeat;
 		background-size: cover;
 		color: #fff;
 }
@@ -294,26 +294,30 @@ a { color:#ea5c0d ; /*par exemple, pour le comportement standart*/ }
 a:hover { color: #f7af3e;}
 
 .image{
-	height: 500px;
-	width: 1000px;
-	animation: slider 10s infinite;
+	height: 800px;
+	width: 1200px;
+	animation: slider 20s infinite;
 }
 
 @keyframes slider {
 	0%{
+		background: url("Images/Versaille.jpg");
+		background-size: cover;
+	}
+	25%{
+		background: url("Images/Versaille.jpg");
+		background-size: cover;
+	}
+	50%{
 		background: url("Images/Chateau.jpg");
 		background-size: cover;
 	}
-	33%{
-		background: url("Images/Chateau.jpg");
-		background-size: cover;
-	}
-	66%{
-		background: url("Images/srek.jpg");
+	75%{
+		background: url("Images/Jardin.jpg");
 		background-size: cover;
 	}
 	100%{
-		background: url("Images/mcn.png");
+		background: url("Images/Galerie.jpg");
 		background-size: cover;
 	}
 }

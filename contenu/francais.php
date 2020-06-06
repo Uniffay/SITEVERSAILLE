@@ -89,6 +89,11 @@ define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de 
 define("login","Connexion");
 define("username","Nom d'utilisateur");
 define("password","Mot de passe");
-define("enterUsername","...");
-define("enterPassword","...");
+define("enter","...");
+
+//Inscription
+define("register","Inscription");
+define("confirmPassword","Confirmez mot de passe");
+define("nom","Nom");
+define("prenom","Prénom");
 ?>

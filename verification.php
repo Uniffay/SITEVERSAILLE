@@ -9,22 +9,22 @@ if(isset($_POST['username']) && isset($_POST['password']))
 
     if($username !== "" && $password !== "")
     {
-        $requete = "SELECT count(*) FROM Utilisateur where
-              nom_utilisateur = '".$username."' and mot_de_passe = '".$password."' ";
+        $requete = "SELECT count(*) FROM user WHERE
+              login = '".$username."' and password = '".$password."' ";
         $reponse = $bdd->query($requete);
         $reponse->setFetchMode(PDO::FETCH_ASSOC);
         $ligne =  $reponse->fetch();
         $count = $ligne['count(*)'];
         if($count!=0) // nom d'utilisateur et mot de passe correctes
         {
-            $sql = "SELECT * FROM Utilisateur where
-            nom_utilisateur = '".$username."' and mot_de_passe = '".$password."'";
+            $sql = "SELECT * FROM user WHERE
+            login = '".$username."' and password = '".$password."'";
             $rep = $bdd->query($sql);
             $rep->setFetchMode(PDO::FETCH_ASSOC);
             $ligne =  $rep->fetch();
             $_SESSION['usertype'] = $ligne['type_utilisateur'];
             $_SESSION['username'] = $username;
-            header('Location: perso.php');
+            header('Location: index.php');
         }
         else
         {

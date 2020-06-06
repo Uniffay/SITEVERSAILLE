@@ -87,6 +87,11 @@ define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We a
 define("login","Login");
 define("username","Username");
 define("password","Password");
-define("enterUsername","...");
-define("enterPassword","...");
+define("enter","...");
+
+//Inscription
+define("register","Register");
+define("confirmPassword","Confirm password");
+define("nom","Name");
+define("prenom","First name");
 ?>

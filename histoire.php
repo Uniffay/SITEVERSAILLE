@@ -7,9 +7,15 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-              <h2>Frise chronologique retraçant l'histoire du Château de Versailles</h2>
-              <img class = "frise" src="Images/frise.png" alt="Frise"/>
-
+              <h2><?php echo frise_histoire?></h2>
+              <?php
+              if($_GET["lang"] === "fr"){
+                  echo "<img class = \"frise\" src=\"Images/frise.png\" alt=\"Frise\"/>";
+              }
+              else{
+                  echo "<img class = \"frise\" src=\"Images/frise_eng.png\" alt=\"Frise\"/>";
+              } 
+              ?>
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->

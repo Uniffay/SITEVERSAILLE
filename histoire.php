@@ -7,7 +7,7 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-              <h2>Frise chronologique retraçant l'histoire du Château de Versailles</h2>
+              <h2><?php echo frise_histoire?></h2>
               <img class = "frise" src="Images/frise.png" alt="Frise"/>
 
             </div>

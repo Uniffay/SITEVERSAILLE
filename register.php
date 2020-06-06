@@ -16,7 +16,7 @@ session_start();
             <!-- zone de connexion -->
 
             <form action="verification2.php" method="POST">
-                <h1><?php echo enter?></h1>
+                <h1><?php echo username?></h1>
                 <label><b><?php echo username?></b></label>
                 <input type="text" placeholder=<?php echo enter?> name="username" required>
 

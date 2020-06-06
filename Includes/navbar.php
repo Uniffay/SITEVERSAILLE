@@ -11,14 +11,14 @@
             </li>
             <li><a href="histoire.php"><?php echo visite?></a></li>
             <li><a href="prepvisite.php"><?php echo prepvisite?></a></li>
-            <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
-            <img src="Images/français.png" height = "16px"
-            width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
-            <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=en">
-            <img src="Images/anglais.png" height = "16px" 
-            width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
             <li><a href="login.php"><?php echo connect?></a></li>
           <li><a href="inscription.php"><?php echo inscrire?></a></li>
+          <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
+          <img src="Images/français.png" height = "16px"
+          width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
+          <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=en">
+          <img src="Images/anglais.png" height = "16px"
+          width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
     </ul>
 </div>
 <!--Fin de la barre de navigation-->

@@ -77,4 +77,11 @@ define("frise_histoire", "Frise chronologique retraçant l'histoire du Château 
 define("introVisite","Quelques conseils pour préparer sa visite...");
 define("contenu1_prepVisite","La nourriture coûte très cher à proximité du château... Pensez à préparer à manger avant ou alors emmenez un pique-nique !");
 define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
+
+//LOGIN
+define("login","Connexion");
+define("username","Nom d'utilisateur");
+define("password","Mot de passe");
+define("enterUsername","Entrer le nom d'utilisateur");
+define("enterPassword","Entrer le mot de passe");
 ?>

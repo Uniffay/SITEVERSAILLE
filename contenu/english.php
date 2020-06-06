@@ -74,6 +74,12 @@ define("frise_histoire", "Timeline retracing the history of the Palace of Versai
 //prep visite
 define("introVisite","A few tips to prepare for your visit...");
 define("contenu1_prepVisite","Food is very expensive near the Château... Remember to prepare food beforehand or take a picnic!");
-define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We advise you to visit the most emblematic places of the site such as the Hall of Mirrors for example.
-");
+define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We advise you to visit the most emblematic places of the site such as the Hall of Mirrors for example.");
+
+//LOGIN
+define("login","Login");
+define("username","Username");
+define("password","Password");
+define("enterUsername","Enter username");
+define("enterPassword","Enter password");
 ?>

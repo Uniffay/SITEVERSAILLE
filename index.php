@@ -17,6 +17,7 @@
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->
             <div class="side">
+              <?php include_once('includes/billeterie.php') ?>
             </div>
             <!--Fin de la partie droite du milieu de la page-->
         </div>

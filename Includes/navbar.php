@@ -15,6 +15,8 @@
 width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
   <li><a href="index_eng.php"><img src="Images/anglais.png" height = "16px"
 width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
+  <li><a href="index.php">Se connecter</a></li>
+  <li><a href="index.php">S'inscrire</a></li>
     </ul>
 </div>
 <!--Fin de la barre de navigation-->

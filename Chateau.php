@@ -7,35 +7,35 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-                <h1>Présentation</h1>
+                <h1><?php echo presentation_chateau?></h1>
 				<p>
-				Inscrit depuis 1979 au patrimoine mondial de l'UNESCO, le château de Versailles fût construit par Louis XIII puis agrandit par son fils Louis XIV.
+				<?php echo contenu1_chateau ?>
 				<br>
-				Les rois de France s'y sont succédé en embelissant le château chacun à leur tour jusqu'en 1789 lors de la révolution française.
+				<?php echo contenu2_chateau ?>
 				<br>
-				Le château de Versailles compte plus de 2300 pièces et s'étend sur 63 154m² , le domaine du château de Versailles s'étend sur plus de 800 hectares,
+				<?php echo contenu3_chateau ?>
 				<br>
-				celui-ci est composé du château ainsi que des Jardins, du Parc, du domaine de Trianon et des Ecuries.
+				<?php echo contenu4_chateau ?>
         <br>
         <br>
         </p>
-            <h1>Quelques anecdotes... </h1>
+            <h1><?php echo anecdotes ?></h1>
         <br>
-        <h2>Savez vous que... </h2>
+        <h2><?php echo intro?></h2>
         <br>
         <p>
-        Le Château de Versailles est le plus grand domaine royal du monde. En effet, sa superficie est d'environ 67000 mètres carré,
+        <?php echo contenu5_chateau?>
         <br>
-        cependant il n'est pas le plus grand palais, le Château dispose d'un espace de plus de 815 hectares.
+        <?php echo contenu6_chateau?>
         </p>
         <br>
         <br>
-        <h2>Mais aussi que... </h2>
+        <h2><?php echo intro2?></h2>
         <br>
         <p>
-        Le Château de Versailles a ajouté en 2016 une nouvelle Galerie nommée la Galerie des Carosses, on peut y observer des carrosses de l'ancien temps,
+        <?php echo contenu7_chateau?>
         <br>
-        de plus de nouvelles activités sont ajoutés chaque année, ce qui montre encore l'engouement envers ce Château.
+        <?php echo contenu8_chateau?>
         </p>
 
             </div>

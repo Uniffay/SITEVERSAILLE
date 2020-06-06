@@ -157,6 +157,7 @@ ul.navbar {
     display: flex;
     flex-wrap: auto;
 		font-size:auto;
+    height: 100%;
 }
 
 /*Boîte de flex CSS contenant les informations importantes de la page web comme des articles et placé à gauche de page dans le "row"*/
@@ -165,6 +166,7 @@ ul.navbar {
     background-color: white;
     padding: 20px;
 		margin-left: 150px;
+    height: 100%;
 }
 
 /*Boîte flex CSS contenant les informations secondaires de la page web et placé à droite de la pge dans le "row"*/
@@ -174,24 +176,21 @@ ul.navbar {
     padding: 20px;
 		margin-left: 100px;
 		color: white;
+    min-height: 100%;
 }
 
 .footer {
-    background-color: #505050;
-    background-image: none;
-		background-position: top left;
-		background-repeat: no-repeat;
-		border-top: 0;
-		background-size: auto;
-		padding-top: 0;
-		padding-bottom: 0;
-    color: #505050;
-    display: inline;
-
-
+  display: inline-block;
+  text-align:center;
+    position: fixed;
+  margin: 0 auto;
+     max-width: 100;
+     min-width: 100%;
+     vertical-align:top;
 }
 
 .footer-2{
+  vertical-align:top;
   width: 100%;
 	margin: 0 auto;
 	padding: 32px 12px 12px 12px;
@@ -200,6 +199,7 @@ ul.navbar {
   color: #ea5c0d;
   float: middle;
   background: #505050;
+  display: inline-block;
 }
 
 /*
@@ -224,6 +224,7 @@ div#Infos1, div#Infos2, div#Infos3, div#Infos4, div#Infos5, div#Infos6{
   margin-left: 100px auto;
   text-align: center;
   float: middle;
+  display: inline-block;
 }
 
 /*Disposition des textes et liens des informations de la boîte flex CSS "footer"*/

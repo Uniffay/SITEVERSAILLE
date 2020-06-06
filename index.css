@@ -161,7 +161,7 @@ ul.navbar {
 
 /*Boîte de flex CSS contenant les informations importantes de la page web comme des articles et placé à gauche de page dans le "row"*/
 .main{
-    flex: 70%;
+    flex: 65%;
     background-color: white;
     padding: 20px;
 		margin-left: 150px;
@@ -169,7 +169,7 @@ ul.navbar {
 
 /*Boîte flex CSS contenant les informations secondaires de la page web et placé à droite de la pge dans le "row"*/
 .side{
-    flex: 30%;
+    flex: 35%;
     background-color: #333333;
     padding: 20px;
 		margin-left: 100px;

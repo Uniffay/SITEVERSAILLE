@@ -4,7 +4,7 @@
   <body>
   <?php include_once('includes/navbar.php')?>
         <!--Milieu de la page contenant deux parties-->
-        <div class="row">
+        <div>
             <!--Partie gauche du milieu de la page-->
             <div class="main">
               <h2><?php echo introVisite?></h2>
@@ -15,8 +15,6 @@
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->
-            <div class="side">
-            </div>
             <!--Fin de la partie droite du milieu de la page-->
         </div>
         <!--Fin du milieu de la page-->

@@ -80,6 +80,6 @@ define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We a
 define("login","Login");
 define("username","Username");
 define("password","Password");
-define("enterUsername","Enter username");
-define("enterPassword","Enter password");
+define("enterUsername","Username");
+define("enterPassword","Password");
 ?>

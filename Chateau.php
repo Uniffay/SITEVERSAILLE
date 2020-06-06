@@ -7,11 +7,7 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-<<<<<<< HEAD
-                <h1>Présentation Château : </h1>
-=======
-                <h2>Présentation Château</h2>
->>>>>>> e7e01f4e6345ed10d30fbd13b222ba3f3c446237
+                <h1>Présentation</h1>
 				<p>
 				Inscrit depuis 1979 au patrimoine mondial de l'UNESCO, le château de Versailles fût construit par Louis XIII puis agrandit par son fils Louis XIV.
 				<br>
@@ -23,28 +19,25 @@
         <br>
         <br>
         </p>
-            <h1>Anectodes sur le Château : </h1>
+            <h1>Quelques anecdotes... </h1>
         <br>
-        <h2>Anectode 1 : </h2>
+        <h2>Savez vous que... </h2>
         <br>
         <p>
-        Le Château de Versailles est le plus grand domaine royal du monde en effet sa superficie est environ de 67000 mètres carrés,
+        Le Château de Versailles est le plus grand domaine royal du monde. En effet, sa superficie est d'environ 67000 mètres carré,
         <br>
         cependant il n'est pas le plus grand palais, le Château dispose d'un espace de plus de 815 hectares.
         </p>
         <br>
         <br>
-        <h2>Anectode 2 : </h2>
+        <h2>Mais aussi que... </h2>
         <br>
         <p>
-        Le Château de Versailles à ajouter en 2016 une nouvelle Galerie noméme la Galerie des Carosses, on peut y observer des carrosses de l'ancien temps,
+        Le Château de Versailles a ajouté en 2016 une nouvelle Galerie nommée la Galerie des Carosses, on peut y observer des carrosses de l'ancien temps,
         <br>
         de plus de nouvelles activités sont ajoutés chaque année, ce qui montre encore l'engouement envers ce Château.
         </p>
 
-
-
-                <img src=""/>
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
         </div>

@@ -7,7 +7,7 @@ define("nom_chateau", "Château de Versailles");
 
 //navbar
 
-define("accueil", "Accueil")
+define("accueil", "Accueil");
 define("information", "Informations");
 define("chateau", "Château");
 define("visite", "Visite");

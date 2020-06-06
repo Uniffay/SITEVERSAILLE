@@ -1,7 +1,7 @@
 <!--Barre de navigation-->
 <div class="navbar">
     <ul class="navbar">
-            <li><a href="index.php" class="active"> <?php echo accueil?> </a></li>
+        <li><a href="index.php" class="active"> <?php echo accueil?> </a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn"> <?php echo information?> </a>
                     <div class="dropdown-content">
@@ -10,13 +10,15 @@
                     </div>
             </li>
             <li><a href="histoire.php"><?php echo visite?></a></li>
-            <li><a href="prepvisite.php"><?php echo prepvisite?></a></li
-  <li><a href="index.php"><img src="Images/français.png" height = "16px"
-width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
-  <li><a href="index_eng.php"><img src="Images/anglais.png" height = "16px"
-width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
-  <li><a href="login.php">Se connecter</a></li>
-  <li><a href="inscription.php">S'inscrire</a></li>
+            <li><a href="prepvisite.php"><?php echo prepvisite?></a></li>
+            <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
+            <img src="Images/français.png" height = "16px"
+            width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
+            <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=en">
+            <img src="Images/anglais.png" height = "16px" 
+            width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
+            <li><a href="login.php">Se connecter</a></li>
+          <li><a href="inscription.php">S'inscrire</a></li>
     </ul>
 </div>
 <!--Fin de la barre de navigation-->

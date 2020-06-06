@@ -16,6 +16,13 @@ define("prepvisite", "Préparer sa visite");
 define("connect", "Se connecter");
 define("inscrire", "S'inscrire");
 
+//side
+
+define("billeterie",
+"<h1>Vous êtes intéressé par Versailles ?</h1>
+<h3>Acheter votre billet dès maintenant <h3>
+<a href=\"http://www.chateauversailles.fr/preparer-ma-visite/billets-tarifs\" target=\"_blank\">ici</a> !</h3>");
+
 //footer
 
 define("adresse", "Adresse");
@@ -82,6 +89,8 @@ define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de 
 define("login","Connexion");
 define("username","Nom d'utilisateur");
 define("password","Mot de passe");
-define("enterUsername","Entrer le nom d'utilisateur");
-define("enterPassword","Entrer le mot de passe");
+define("enter","...");
+
+define("register","Inscription");
+define("confirmPassword","Confirmez mot de passe")
 ?>

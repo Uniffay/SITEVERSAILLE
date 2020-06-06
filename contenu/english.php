@@ -16,6 +16,13 @@ define("prepvisite", "Planing your visit");
 define("connect", "Sign In");
 define("inscrire", "Register");
 
+//side
+
+define("billeterie",
+"<h1>Are you interested in Versailles ?</h1>
+<h3>Buy your ticket now <h3>
+<a href=\"http://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\" target=\"_blank\">here</a> !</h3>");
+
 //footer
 
 define("adresse", "Adress");
@@ -80,6 +87,8 @@ define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We a
 define("login","Login");
 define("username","Username");
 define("password","Password");
-define("enterUsername","Enter username");
-define("enterPassword","Enter password");
+define("enter","...");
+
+define("register","Register");
+define("confirmPassword","Confirm password");
 ?>

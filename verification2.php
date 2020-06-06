@@ -5,13 +5,16 @@ if(isset($_POST['username']) && isset($_POST['password']))
     include('includes/connexion.php');
     $username = $_POST['username'];
     $password = $_POST['password'];
+    $nom = $_POST['nom'];
+    $prenom = $_POST['prenom'];
+    $email = $_POST['email'];
     $password2 = $_POST['password2'];
 
     if($username !== "" && $password !== "") {
         if ($password == $password2) {
 
-          $requete = "SELECT count(*) FROM Utilisateur where
-                nom_utilisateur = '".$username."' and mot_de_passe = '".$password."' ";
+          $requete = "SELECT count(*) FROM user WHERE
+                login = '".$username."' and password = '".$password."' ";
           $reponse = $bdd->query($requete);
           $reponse->setFetchMode(PDO::FETCH_ASSOC);
           $ligne =  $reponse->fetch();
@@ -19,12 +22,15 @@ if(isset($_POST['username']) && isset($_POST['password']))
           if($count==0) // nom d'utilisateur et mot de passe nouveaux
           {
 
-          try{  $sql = $bdd->prepare("INSERT into `Utilisateur` (nom_utilisateur, mot_de_passe, type_utilisateur) values (?, ?, 'visiteur')");
-            $sql->execute([$username,$password]);
+          try{  $sql = $bdd->exec("INSERT INTO `membre` (nom,prenom,email) values ('$nom', '$prenom', '$email')");
+              $getid = $bdd->query("SELECT id FROM membre WHERE nom = '$nom'");
+              $idligne = $getid->fetch();
+              $id = $idligne['id']+1;
+              $adduser = $bdd->exec("INSERT INTO `user` (login,password,id_membre) values ('$username', '$password, '$id')");
             }
 
           catch(Exception $e){
-            die('ça marche po !'.$e->getMessage());
+            die("L'inscription a échouée !".$e->getMessage());
           }
             header('Location: login.php');
           }

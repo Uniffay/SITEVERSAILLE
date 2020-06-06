@@ -25,6 +25,15 @@ session_start();
                 <label><b><?php echo confirmPassword?></b></label>
                 <input type="password" placeholder=<?php echo enter?> name="password2" required>
 
+                <label><b>Nom</b></label>
+                <input type="text" placeholder="Entrez votre nom" name="nom" required>
+
+                <label><b>Prenom</b></label>
+                <input type="text" placeholder="Entrez votre prénom" name="prenom" required>
+
+                <label><b>Email</b></label>
+                <input type="text" placeholder="Entrez votre email" name="email" required>
+
                 <input type="submit" id='submit' value='REGISTER' >
                 <?php
                 if(isset($_GET['erreur'])){

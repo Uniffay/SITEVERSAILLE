@@ -91,6 +91,9 @@ define("username","Nom d'utilisateur");
 define("password","Mot de passe");
 define("enter","...");
 
+//Inscription
 define("register","Inscription");
-define("confirmPassword","Confirmez mot de passe")
+define("confirmPassword","Confirmez mot de passe");
+define("nom","Nom");
+define("prenom","Prénom");
 ?>

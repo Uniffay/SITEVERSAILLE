@@ -89,6 +89,9 @@ define("username","Username");
 define("password","Password");
 define("enter","...");
 
+//Inscription
 define("register","Register");
 define("confirmPassword","Confirm password");
+define("nom","Name");
+define("prenom","First name");
 ?>

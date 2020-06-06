@@ -14,7 +14,7 @@
               echo "<img class = \"frise\" src=\"Images/frise_eng.png\" alt=\"Frise\" usemap=\"#image-map\"/>";
           }?>
       <map name="image-map">
-          <area target="_blank" alt="LouisXIII" title="LouisXIII" href="LouisXIII" coords="311,43,459,145" shape="rect">
+          <area target="_blank" alt="LouisXIII" title="LouisXIII" href="LouisXIII" coords="311,43,459,145">
           <area target="_blank" alt="LouisXIV" title="LouisXIV" href="LouisXIV" coords="311,145,459,335" shape="rect">
           <area target="_blank" alt="LouisXV" title="LouisXV" href="LouisXV" coords="311,335,459,480" shape="rect">
           <area target="_blank" alt="LouisXVI" title="LouisXVI" href="LouisXVI" coords="311,479,459,544" shape="rect">

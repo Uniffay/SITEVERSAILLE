@@ -46,7 +46,7 @@ define("contenu1_chateau", "Inscrit depuis 1979 au patrimoine mondial de l'UNESC
 define("contenu2_chateau", "Les rois de France s'y sont succédé en embelissant le château chacun à leur tour jusqu'en 1789 lors de la révolution française.");
 define("contenu3_chateau", "Le château de Versailles compte plus de 2300 pièces et s'étend sur 63 154m² , le domaine du château de Versailles s'étend sur plus de 800 hectares,");
 define("contenu4_chateau", "celui-ci est composé du château ainsi que des Jardins, du Parc, du domaine de Trianon et des Ecuries.");
-define("anectodes", "Quelques anecdotes...");
+define("anecdotes", "Quelques anecdotes...");
 define("intro", "Savez vous que...");
 define("contenu5_chateau", "Le Château de Versailles est le plus grand domaine royal du monde. En effet, sa superficie est d'environ 67000 mètres carré,");
 define("contenu6_chateau", "cependant il n'est pas le plus grand palais, le Château dispose d'un espace de plus de 815 hectares.");
@@ -84,4 +84,11 @@ define("frise_histoire", "Frise chronologique retraçant l'histoire du Château 
 define("introVisite","Quelques conseils pour préparer sa visite...");
 define("contenu1_prepVisite","La nourriture coûte très cher à proximité du château... Pensez à préparer à manger avant ou alors emmenez un pique-nique !");
 define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
+
+//LOGIN
+define("login","Connexion");
+define("username","Nom d'utilisateur");
+define("password","Mot de passe");
+define("enterUsername","Entrer le nom d'utilisateur");
+define("enterPassword","Entrer le mot de passe");
 ?>

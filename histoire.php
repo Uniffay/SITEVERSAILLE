@@ -4,10 +4,17 @@
   <body>
     <?php include_once('includes/navbar.php')?>
     <div class="main">
-      <h1>Frise chronologique retraçant l'histoire du Château de Versailles</h1>
-      <img class = "frise" src="Images/frise.png" alt="Frise" usemap="#image-map"/>
+
+      <h1><?php echo frise_histoire;?></h1>
+       <?php
+          if($_GET["lang"] === "fr"){
+              echo "<img class = \"frise\" src=\"Images/frise.png\" alt=\"Frise\" usemap=\"#image-map\"/>";
+          }
+          else{
+              echo "<img class = \"frise\" src=\"Images/frise_eng.png\" alt=\"Frise\" usemap=\"#image-map\"/>";
+          }?>
       <map name="image-map">
-          <area target="_blank" alt="LouisXIII" title="LouisXIII" href="LouisXIII" coords="311,43,459,145" shape="rect">
+          <area target="_blank" alt="LouisXIII" title="LouisXIII" href="LouisXIII" coords="311,43,459,145">
           <area target="_blank" alt="LouisXIV" title="LouisXIV" href="LouisXIV" coords="311,145,459,335" shape="rect">
           <area target="_blank" alt="LouisXV" title="LouisXV" href="LouisXV" coords="311,335,459,480" shape="rect">
           <area target="_blank" alt="LouisXVI" title="LouisXVI" href="LouisXVI" coords="311,479,459,544" shape="rect">

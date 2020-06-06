@@ -8,15 +8,14 @@
             <!--Partie gauche du milieu de la page-->
             <div class="main">
               <h2><?php echo frise_histoire?></h2>
-              <?phpif($_GET["lang"]){
-                  echo "<img src=\"$http_image\"/>\n";
+              <?php
+              if($_GET["lang"] === "fr"){
+                  echo "<img class = \"frise\" src=\"Images/frise.png\" alt=\"Frise\"/>";
               }
               else{
-                  echo "<img src=\"uploads/$username/noprofile.png\"/>\n";
+                  echo "<img class = \"frise\" src=\"Images/frise_eng.png\" alt=\"Frise\"/>";
               } 
               ?>
-              <img class = "frise" src="Images/frise.png" alt="Frise"/>
-
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->

@@ -4,9 +4,11 @@ session_start();
 
  <?php
    if (isset($_POST['submit']) && $_POST['submit'] == 'LOGIN') {
-     include_once('Includes/connexion.php');
+     include_once('includes/connexion.php');
      $login = $_POST['login'];
      $mdp = $_POST['mdp'];
+     echo $login;
+     echo $mdp;
 
 
 
@@ -16,7 +18,7 @@ session_start();
      $login_valide = $ligne['login'];
      $pwd_valide = $ligne['password'];
 
-     if (isset($login) && isset($mdp)) {
+     if (!(empty($login)) && !(empty($mdp))) {
 
        if ($login_valide == $login && $pwd_valide == $mdp) {
 
@@ -44,15 +46,15 @@ session_start();
         <div id="container">
             <!-- zone de connexion -->
 
-            <form action="login.php" method="POST">
+            <form action="" method="POST">
                 <h1>Connexion</h1>
                 <label><b>Nom d'utilisateur</b></label>
-                <input type="text" placeholder="Entrer le nom d'utilisateur" name="login" required>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="login"/>
 
                 <label><b>Mot de passe</b></label>
-                <input type="password" placeholder="Entrer le mot de passe" name="mdp" required>
+                <input type="password" placeholder="Entrer le mot de passe" name="mdp"/>
 
-                <input type="submit" id='submit' value='LOGIN' >
+                <input type="submit" id="submit" name="submit" value='LOGIN'/>
             </form>
         </div>
         <?php include_once('includes/footer.php') ?>

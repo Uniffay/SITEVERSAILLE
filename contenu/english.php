@@ -30,7 +30,29 @@ define("bienvenue", "Welcome to Versailles");
 
 //chateau
 
-define("presentation", "Présentation Château");
-define("contenu1", "Inscrit depuis 1979 au patrimoine mondial de l'UNESCO, le château de Versailles fût construit par Louis XIII puis agrandit par son fils Louis XIV.")
-define("contenu2", "Les rois de France s'y sont succédé en embelissant le château chacun à leur tour jusqu'en 1789 lors de la révolution française.")
+define("presentation_chateau", "Presentation of the Palace");
+define("contenu1_chateau", "Listed since 1979 as a UNESCO World Heritage Site, the Palace of Versailles was built by Louis XIII and later enlarged by his son Louis XIV.");
+define("contenu2_chateau", "The kings of France succeeded one another, each in turn embellishing the castle until 1789 during the French Revolution.");
+define("contenu3_chateau", "The castle of Versailles has more than 2300 rooms and covers 63 154m², the domain of the castle of Versailles covers more than 800 hectares,");
+define("contenu4_chateau", "this one is composed of the castle as well as the Gardens, the Park, the domain of Trianon and the Stables.");
+
+//visite
+
+define("organiser_visite", "Organize your visit");
+define("information_visite", "General informations");
+define("visite_visite", "Visit:");
+define("duree_visite", "Average length of visit");
+define("time_visite", "90 minutes");
+define("type_visite", "Type of cultural heritage:");
+define("site_visite", "Historic sites and monuments");
+define("patrimoine_visite", "Cultural heritage:");
+define("chateau_visite", "Château");
+define("jardin_visite", "Gardens");
+define("glace_visite", "Hall of Mirrors");
+define("parc_visite", "Park");
+define("ecuries_visite", "Stables");
+define("periode_visite", "Period:");
+define("siecle1_visite", "XVIIth century");
+define("siecle1_visite", "XVIIIth century");
+define("siecle1_visite", "XIXth century");
 ?>

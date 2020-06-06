@@ -1,13 +1,13 @@
 <?php
-include("connexionBDD.php");
 define("langue", "Language");
 
 // header
 
-define("Titre_page", "Palace of Versailles");
+define("nom_chateau", "Palace of Versailles");
 
 //navbar
 
+define("accueil", "Home");
 define("information", "Information");
 define("chateau", "Palace");
 define("visite", "Visit");
@@ -58,5 +58,5 @@ define("siecle1_visite", "XIXth century");
 
 //histoire
 
-define("frise_histoire", "Timeline retracing the history of the Palace of Versailles")
+define("frise_histoire", "Timeline retracing the history of the Palace of Versailles");
 ?>

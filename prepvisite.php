@@ -15,6 +15,9 @@
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->
+            <div class="side">
+              <?php echo billeterie ?>
+            </div>
             <!--Fin de la partie droite du milieu de la page-->
         </div>
         <!--Fin du milieu de la page-->

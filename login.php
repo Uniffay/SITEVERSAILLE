@@ -7,8 +7,6 @@ session_start();
      include_once('includes/connexion.php');
      $login = $_POST['login'];
      $mdp = $_POST['mdp'];
-     echo $login;
-     echo $mdp;
 
 
 
@@ -46,7 +44,7 @@ session_start();
         <div id="container">
             <!-- zone de connexion -->
 
-            <form action="" method="POST">
+            <form action="login.php" method="POST">
                 <h1>Connexion</h1>
                 <label><b>Nom d'utilisateur</b></label>
                 <input type="text" placeholder="Entrer le nom d'utilisateur" name="login"/>

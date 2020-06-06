@@ -7,7 +7,7 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-                <h1>Présentation Château</h1>
+                <h1>Présentation</h1>
 				<p>
 				Inscrit depuis 1979 au patrimoine mondial de l'UNESCO, le château de Versailles fût construit par Louis XIII puis agrandit par son fils Louis XIV.
 				<br>
@@ -15,9 +15,29 @@
 				<br>
 				Le château de Versailles compte plus de 2300 pièces et s'étend sur 63 154m² , le domaine du château de Versailles s'étend sur plus de 800 hectares,
 				<br>
-				celui-ci est composé du château ainsi que des Jardins, du Parc, du domaine de Trianon et des Ecuries
-				</p>
-                <img src=""/>
+				celui-ci est composé du château ainsi que des Jardins, du Parc, du domaine de Trianon et des Ecuries.
+        <br>
+        <br>
+        </p>
+            <h1>Quelques anecdotes... </h1>
+        <br>
+        <h2>Savez vous que... </h2>
+        <br>
+        <p>
+        Le Château de Versailles est le plus grand domaine royal du monde. En effet, sa superficie est d'environ 67000 mètres carré,
+        <br>
+        cependant il n'est pas le plus grand palais, le Château dispose d'un espace de plus de 815 hectares.
+        </p>
+        <br>
+        <br>
+        <h2>Mais aussi que... </h2>
+        <br>
+        <p>
+        Le Château de Versailles a ajouté en 2016 une nouvelle Galerie nommée la Galerie des Carosses, on peut y observer des carrosses de l'ancien temps,
+        <br>
+        de plus de nouvelles activités sont ajoutés chaque année, ce qui montre encore l'engouement envers ce Château.
+        </p>
+
             </div>
             <!--Fin de la partie gauche du milieu de la page-->
         </div>

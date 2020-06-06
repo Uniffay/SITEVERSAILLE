@@ -13,5 +13,7 @@
 width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
   <li><a href="index_eng.html"><img src="Images/anglais.png" height = "16px"
 width = "25px" alt="eng" align = "center" style = "margin: 0"/></a><li/>
+<li><a href="login.php">Log in</a></li>
+<li><a href="signin.php">Sign in</a></li>
     </ul>
 </div>

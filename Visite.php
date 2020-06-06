@@ -13,7 +13,7 @@
 				<p>
 				Informations Générales
 				<br>
-				<h1>Visites:</h1>
+				<h2>Visites:</h2>
 				</p>
 				<p>
 				<br>
@@ -22,14 +22,14 @@
 					90 minutes
 				<br>
 				<br>
-				<h1>Type de patrimoine culturel:</h1>
+				<h2>Type de patrimoine culturel:</h2>
 				</p>
 				<p>
 				<br>
 					> Site et monuments historiques
 				<br>
 				<br>
-				<h1>Patrimoine historique:</h1>
+				<h2>Patrimoine historique:</h2>
 				</p>
 				<p>
 				<br>
@@ -44,7 +44,7 @@
 				   > Ecuries
 				<br>
 				<br>
-				<h1>Période:</h1>
+				<h2>Période:</h2>
 				</p>
 				<p>
 				<br>

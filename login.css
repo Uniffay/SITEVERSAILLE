@@ -1,8 +1,8 @@
 #container{
     width:400px;
     margin:0 auto;
-    margin-top:10%;
-    margin-bottom:10%;
+    margin-top:5%;
+    margin-bottom:6%;
 }
 /* Bordered form */
 form {
@@ -30,16 +30,16 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 input[type=submit] {
-    background-color: #9b2;
+    background-color: #f7af3e;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 1px solid #f7af3e;
     cursor: pointer;
     width: 100%;
 }
 input[type=submit]:hover {
     background-color: white;
-    color: #9b2;
-    border: 1px solid #9b2;
+    color: #f7af3e;
+    border: 1px solid #f7af3e;
 }

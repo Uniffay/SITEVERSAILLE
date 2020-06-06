@@ -42,6 +42,7 @@ p,pre {
 h1 {
 	font-style: normal;
 	font-weigth: bold;
+	text-align: center;
 }
 
 h2 {
@@ -178,12 +179,12 @@ ul.navbar {
 .footer {
     background-color: #505050;
     background-image: none;
-background-position: top left;
-background-repeat: no-repeat;
-border-top: 0;
-background-size: auto;
-padding-top: 0;
-padding-bottom: 0;
+		background-position: top left;
+		background-repeat: no-repeat;
+		border-top: 0;
+		background-size: auto;
+		padding-top: 0;
+		padding-bottom: 0;
     color: #505050;
     display: inline;
 
@@ -192,10 +193,10 @@ padding-bottom: 0;
 
 .footer-2{
   width: 100%;
-margin: 0 auto;
-padding: 32px 12px 12px 12px;
-display: flex;
-flex-flow: row wrap;
+	margin: 0 auto;
+	padding: 32px 12px 12px 12px;
+	display: flex;
+	flex-flow: row wrap;
   color: #ea5c0d;
   float: middle;
   background: #505050;
@@ -260,16 +261,7 @@ iframe.GForm{
     .navbar li a, .navbar .navbar .dropbtn,{
         display: block;
     }
-
-    .YTVid, img , .Pagures{
-        width: 75%;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-        float: middle;
-        font-size: 50%;
-    }
-
+		
 	iframe.GForm{
 		width: 100%;
 		height: relative;
@@ -320,4 +312,10 @@ a:hover { color: #f7af3e;}
 		background: url("Images/Galerie.jpg");
 		background-size: cover;
 	}
+}
+
+.frise{
+		display: block;
+    margin-left: auto	;
+    margin-right: auto;
 }

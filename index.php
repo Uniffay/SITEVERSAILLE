@@ -7,7 +7,7 @@
         <div class="row">
             <!--Partie gauche du milieu de la page-->
             <div class="main">
-                <h1>Bienvenue à Versailles</h1>
+                <h1><?php echo bienvenue?></h1>
                 <div class="slide">
                   <div class="image">
                     <!--Slider-->

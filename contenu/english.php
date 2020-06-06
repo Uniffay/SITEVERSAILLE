@@ -14,7 +14,7 @@ define("visite", "Visit");
 define("histoire", "History");
 define("prepvisite", "Planing your visit");
 define("connect", "Sign In");
-define("inscrire", "Sign Out");
+define("inscrire", "Register");
 
 //footer
 

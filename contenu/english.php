@@ -35,6 +35,9 @@ define("communiquant", "Communicator:");
 define("developpeur", "Developer:");
 define("designer", "Designer:");
 
+define("quisommesnous", "Who are we?");
+define("decouvreznous", "Discover us!");
+
 // index
 
 define("bienvenue", "Welcome to Versailles");

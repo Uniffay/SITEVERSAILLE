@@ -177,7 +177,7 @@ ul.navbar {
     background-color: #333333;
     padding: 20px;
 		margin-left: 5%;
-    margin-right: 5%;
+    margin-right: auto;
 		color: white;
     min-height: 100%;
 }
@@ -186,7 +186,7 @@ ul.navbar {
   display: inline-block;
   text-align:center;
   margin: 0 auto;
-     max-width: 100;
+     max-width: 20;
      min-width: 100%;
      vertical-align:top;
 }
@@ -194,7 +194,7 @@ ul.navbar {
 .footer-2{
   width: 100%;
 	margin: 0 auto;
-	padding: 32px 12px 12px 12px;
+	padding: 5px 20px 5px 20px;
 	display: flex;
 	flex-flow: row wrap;
   color: #ea5c0d;

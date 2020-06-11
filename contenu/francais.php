@@ -15,6 +15,8 @@ define("histoire", "Histoire");
 define("prepvisite", "Préparer sa visite");
 define("connect", "Se connecter");
 define("inscrire", "S'inscrire");
+define("quisommesnous", "Qui sommes nous ?");
+define("compte", "Compte");
 
 //side
 

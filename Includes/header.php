@@ -1,9 +1,15 @@
 <?php
-if (!isset($_GET["lang"])) {
-    $_GET["lang"] = "fr";
+if (!empty($_GET["lang"])) {
+  setcookie("lang", $_GET["lang"]);
+  $url = $_SERVER["PHP_SELF"];
+  $url = strtok($url, '?');
+  header("Location: " . $url);
+}
+elseif (!isset($_COOKIE["lang"])) {
+  setcookie("lang", "fr");
 }
 
-if ($_GET["lang"] === "fr") {
+if ($_COOKIE["lang"] === "fr") {
     require_once "contenu/francais.php";
 } else {
     require_once "contenu/english.php";

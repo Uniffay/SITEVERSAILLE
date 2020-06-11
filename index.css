@@ -117,6 +117,7 @@ ul.navbar {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    height: 100%;
 }
 
 /*Spécifie la couleur de l'arrière plan des principaux objets de la liste/barre de navigation lorsque la souris est positionné au dessus*/
@@ -170,7 +171,8 @@ ul.navbar {
     flex: 65%;
     background-color: white;
     padding: 20px;
-		margin-left: 150px;
+		margin-left: 5%;
+    margin-right: 5%;
     height: 100%;
 }
 
@@ -179,7 +181,8 @@ ul.navbar {
     flex: 35%;
     background-color: #333333;
     padding: 20px;
-		margin-left: 100px;
+		margin-left: 5%;
+    margin-right: 5%;
 		color: white;
     min-height: 100%;
 }
@@ -187,7 +190,6 @@ ul.navbar {
 .footer {
   display: inline-block;
   text-align:center;
-    position: fixed;
   margin: 0 auto;
      max-width: 100;
      min-width: 100%;
@@ -195,7 +197,6 @@ ul.navbar {
 }
 
 .footer-2{
-  vertical-align:top;
   width: 100%;
 	margin: 0 auto;
 	padding: 32px 12px 12px 12px;
@@ -264,8 +265,27 @@ iframe.GForm{
 				height: relative;
     }
 
+    .side, .main{
+      margin-left: 0;
+    }
+
     .navbar li a, .navbar .navbar .dropbtn,{
         display: block;
+    }
+
+    ul.navbar{
+      width: 100%;
+    }
+
+    .navbar li a, .navbar .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+      padding-right: revert;
+      padding-left: revert;
+      width: 100%;
     }
 
 	iframe.GForm{

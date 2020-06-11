@@ -15,6 +15,8 @@ define("histoire", "History");
 define("prepvisite", "Planing your visit");
 define("connect", "Sign In");
 define("inscrire", "Register");
+define("quisommesnous", "About us");
+define("compte", "Account");
 
 //side
 

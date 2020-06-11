@@ -37,7 +37,6 @@ define("communiquant", "Communiquant:");
 define("developpeur", "Développeur:");
 define("designer", "Designer:");
 
-define("quisommesnous", "Qui sommes-nous ?");
 define("decouvreznous", "Découvrez nous!");
 
 // index

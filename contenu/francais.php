@@ -61,6 +61,9 @@ define("contenu8_chateau","de plus de nouvelles activités sont ajoutés chaque 
 
 define("organiser_visite", "Organiser sa visite");
 define("information_visite", "Informations Générales");
+define("horaires_visite","Horaires d'ouverture:");
+define("horaires_visite2","Le Chateau est ouvert tous les jours à partir de 9h sauf le lundi");
+define("horaires_visite3","Pour plus de précision cliquez <a href=\"horaires.php\" target=\"_blank\">ici</a>");
 define("visite_visite", "Visites:");
 define("duree_visite", "Durée moyenne de la visite:");
 define("time_visite", "90 minutes");

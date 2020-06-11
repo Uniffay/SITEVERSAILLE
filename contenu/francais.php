@@ -37,6 +37,8 @@ define("communiquant", "Communiquant:");
 define("developpeur", "Développeur:");
 define("designer", "Designer:");
 
+define("decouvreznous", "Découvrez nous!");
+
 // index
 
 define("bienvenue", "Bienvenue à Versailles");

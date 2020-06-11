@@ -14,13 +14,12 @@ VERSAILLES <br>
 </div>
 <div id="Infos2">
 <p>
-<?php echo concepteur?> <br>
-<?php echo chef?> <br>
+<?php echo quisommesnous?> <br>
 
-<a href= "https://www.linkedin.com/in/quentin-boulet-2869191a0/" target = "_blank" >Boulet Quentin</a>
+<a href= "" target = "_blank" ><?php echo decouvreznous ?></a>
         </p>
     </div>
-    <div id="Infos3">
+    <!-- <div id="Infos3">
 <p>
 
 <?php echo chercheur?> <br>
@@ -55,7 +54,7 @@ VERSAILLES <br>
 
 <a href= "https://www.linkedin.com/in/alan-garcia-calzada-1a2b7b19b/" target = "_blank" >GARCIA CALZADA Alan</a>
         </p>
-</div>
+</div> -->
 </div>
 </div>
 <!--Fin du bas de la page-->

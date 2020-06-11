@@ -9,10 +9,11 @@ define("nom_chateau", "Château de Versailles");
 
 define("accueil", "Accueil");
 define("information", "Informations");
-define("chateau", "Château");
-define("visite", "Visite");
-define("histoire", "Histoire");
+define("chateau", "Histoire");
+define("visite", "Lieu");
+define("histoire", "Frise");
 define("prepvisite", "Préparer sa visite");
+define("galeriephoto", "Galerie");
 define("connect", "Se connecter");
 define("inscrire", "S'inscrire");
 define("quisommesnous", "Qui sommes nous ?");

@@ -11,6 +11,7 @@
             </li>
             <li><a href="histoire.php"><?php echo histoire?></a></li>
             <li><a href="prepvisite.php"><?php echo prepvisite?></a></li>
+            <li><a href="galerie.php"><?php echo galeriephoto?></a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn"> <?php echo compte?> </a>
                     <div class="dropdown-content">

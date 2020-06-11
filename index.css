@@ -182,7 +182,6 @@ ul.navbar {
 .footer {
   display: inline-block;
   text-align:center;
-    position: fixed;
   margin: 0 auto;
      max-width: 100;
      min-width: 100%;
@@ -190,7 +189,6 @@ ul.navbar {
 }
 
 .footer-2{
-  vertical-align:top;
   width: 100%;
 	margin: 0 auto;
 	padding: 32px 12px 12px 12px;
@@ -259,8 +257,27 @@ iframe.GForm{
 				height: relative;
     }
 
+    .side, .main{
+      margin-left: 0;
+    }
+
     .navbar li a, .navbar .navbar .dropbtn,{
         display: block;
+    }
+
+    ul.navbar{
+      width: 100%;
+    }
+
+    .navbar li a, .navbar .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+      padding-right: revert;
+      padding-left: revert;
+      width: 100%;
     }
 
 	iframe.GForm{

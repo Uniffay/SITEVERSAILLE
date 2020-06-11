@@ -9,9 +9,9 @@ define("nom_chateau", "Palace of Versailles");
 
 define("accueil", "Home");
 define("information", "Information");
-define("chateau", "Palace");
-define("visite", "Visit");
-define("histoire", "History");
+define("chateau", "History");
+define("visite", "Location");
+define("histoire", "Timeline");
 define("prepvisite", "Planing your visit");
 define("connect", "Sign In");
 define("inscrire", "Register");

@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
   <?php include_once('includes/header.php') ?>
   <link rel="stylesheet" href="quisommesnous.css" media="screen" type="text/css" />

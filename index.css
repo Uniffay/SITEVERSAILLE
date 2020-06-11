@@ -305,12 +305,6 @@ iframe.YTVid{
 a { color:#ea5c0d ; /*par exemple, pour le comportement standart*/ }
 a:hover { color: #f7af3e;}
 
-.image{
-	height: 800px;
-	width: 1200px;
-	animation: slider 20s infinite;
-}
-
 * {box-sizing:border-box}
 
 /* Slideshow container */

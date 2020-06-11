@@ -82,7 +82,7 @@ define("organiser_visite", "Organiser sa visite");
 define("information_visite", "Informations Générales");
 define("horaires_visite","Horaires d'ouverture:");
 define("horaires_visite2","Le Chateau est ouvert tous les jours à partir de 9h sauf le lundi");
-define("horaires_visite3","Pour plus de précision cliquez <a href=\"horaires.php\" target=\"_blank\">ici</a>");
+define("horaires_visite3","Pour plus de précision cliquez <a href=\"prepvisite.php#horaire\">ici</a>");
 define("visite_visite", "Visites:");
 define("duree_visite", "Durée moyenne de la visite:");
 define("time_visite", "90 minutes");
@@ -105,6 +105,22 @@ define("frise_histoire", "Frise chronologique retraçant l'histoire du Château 
 
 //prepvisite
 
+define("horaires_prepVisite","Horaires détaillées");
+define("horaires_chateau","Le Château");
+define("horaires_chateau2","Ouvert tous les jours sauf le lundi");
+define("horaires_chateau3","Horaires: 9h - 18h30");
+define("horaires_trianon","Le domaine de Trianon");
+define("horaires_trianon2","Ouvert tous les jours sauf le lundi");
+define("horaires_trianon3","Horaires: 12h - 18h30");
+define("horaires_jardins","Les Jardins");
+define("horaires_jardins2","Ouvert tous les jours");
+define("horaires_jardins3","Horaires: 8h - 20h30");
+define("horaires_parc","Le Parc");
+define("horaires_parc2","Ouvert tous les jours");
+define("horaires_parc3","Horaires: 7h - 20h30");
+define("horaires_marly","Le domaine de Marly");
+define("horaires_marly2","Ouvert tous les jours");
+define("horaires_marly3","Horaires: 7h30 - 19h30");
 define("introVisite","Quelques conseils pour préparer sa visite...");
 define("contenu1_prepVisite","Nous vous conseillons de penser à préparer à manger avant votre visite, ou alors d'emmener un pique-nique. Il y aussi des tas de stands de nourriture autour du Château !");
 define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");

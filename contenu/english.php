@@ -18,6 +18,9 @@ define("inscrire", "Register");
 define("quisommesnous", "About us");
 define("compte", "Account");
 
+//quisommesnous
+define("noussommes", "Our team :");
+
 //side
 
 define("billeterie",
@@ -30,12 +33,12 @@ define("billeterie",
 define("adresse", "Adress");
 define("tel", "Phone");
 define("appel_prix", "(call charge)");
-define("concepteur", "Website Creator :");
-define("chef", "Project Leader:");
-define("chercheur", "Researcher:");
-define("communiquant", "Communicator:");
-define("developpeur", "Developer:");
-define("designer", "Designer:");
+define("concepteur", "Website Creator");
+define("chef", "Project Leader");
+define("chercheur", "Researcher");
+define("communiquant", "Communicator");
+define("developpeur", "Developer");
+define("designer", "Designer");
 
 define("decouvreznous", "Discover us!");
 

@@ -16,7 +16,7 @@ VERSAILLES <br>
 <p>
 <?php echo quisommesnous?> <br>
 
-<a href= "" target = "_blank" ><?php echo decouvreznous ?></a>
+<a href="quisommesnous.php"><?php echo decouvreznous ?></a>
         </p>
     </div>
     <!-- <div id="Infos3">

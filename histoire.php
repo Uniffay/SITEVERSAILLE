@@ -7,7 +7,7 @@
 
       <h1><?php echo frise_histoire;?></h1>
        <?php
-          if($_GET["lang"] === "fr"){
+          if($_COOKIE["lang"] === "fr"){
               echo "<img class = \"frise\" src=\"Images/frise.png\" alt=\"Frise\" usemap=\"#image-map\"/>";
           }
           else{

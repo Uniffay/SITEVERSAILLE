@@ -112,6 +112,7 @@ ul.navbar {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    height: 100%;
 }
 
 /*Spécifie la couleur de l'arrière plan des principaux objets de la liste/barre de navigation lorsque la souris est positionné au dessus*/
@@ -165,7 +166,8 @@ ul.navbar {
     flex: 65%;
     background-color: white;
     padding: 20px;
-		margin-left: 150px;
+		margin-left: 5%;
+    margin-right: 5%;
     height: 100%;
 }
 
@@ -174,7 +176,8 @@ ul.navbar {
     flex: 35%;
     background-color: #333333;
     padding: 20px;
-		margin-left: 100px;
+		margin-left: 5%;
+    margin-right: 5%;
 		color: white;
     min-height: 100%;
 }

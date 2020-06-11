@@ -1,10 +1,10 @@
-<?php 
+<?php
 if (!isset($_GET["lang"])) {
     $_GET["lang"] = "fr";
 }
 
 if ($_GET["lang"] === "fr") {
-    require_once "contenu/francais.php"; 
+    require_once "contenu/francais.php";
 } else {
     require_once "contenu/english.php";
 }

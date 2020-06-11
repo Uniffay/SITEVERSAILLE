@@ -13,6 +13,7 @@ define("chateau", "History");
 define("visite", "Location");
 define("histoire", "Timeline");
 define("prepvisite", "Planing your visit");
+define("galeriephoto", "Gallery");
 define("connect", "Sign In");
 define("inscrire", "Register");
 define("quisommesnous", "About us");

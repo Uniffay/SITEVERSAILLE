@@ -30,6 +30,7 @@
                 <h2><?php echo limi_resp ?> </h2>
               <p>
                 <?php echo contenu6_mention ?>
+                <br>
                 <?php echo contenu7_mention ?>
               <br>
               <br>
@@ -43,7 +44,9 @@
                 <h2><?php echo propri_inte ?> </h2>
               <p>
               <?php echo contenu9_mention ?>
+              <br>
               <?php echo contenu10_mention ?>
+              <br>
               <?php echo contenu11_mention ?>
               <br>
               <br>

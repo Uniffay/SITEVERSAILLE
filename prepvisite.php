@@ -47,7 +47,20 @@
                   <h2><?php echo introVisite?></h2>
                   <p>
                     <?php echo contenu1_prepVisite?>
+                    <br>
                     <?php echo contenu2_prepVisite?>
+                    <br>
+                    <?php echo contenu3_prepVisite?>
+                    <br>
+                    <?php echo contenu4_prepVisite?>
+                    <br>
+                    <?php echo contenu5_prepVisite?>
+                    <br>
+                    <?php echo contenu6_prepVisite?>
+                    <br>
+                    <?php echo contenu7_prepVisite?>
+                    <br>
+                    <?php echo contenu8_prepVisite?>
                 </div>
             <!--Fin de la partie gauche du milieu de la page-->
             <!--Partie gauche du milieu de la page-->

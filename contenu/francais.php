@@ -129,6 +129,13 @@ define("horaires_marly3","Horaires: 7h30 - 19h30");
 define("introVisite","Quelques conseils pour préparer sa visite...");
 define("contenu1_prepVisite","Nous vous conseillons de penser à préparer à manger avant votre visite, ou alors d'emmener un pique-nique. Il y aussi des tas de stands de nourriture autour du Château !");
 define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
+define("contenu3_prepVisite", "Nous vous conseillons de visiter le château à l'ouverture(9h) et le Trianon à midi pendant les hautes saisons dû a une forte influence.");
+define("contenu4_prepVisite", "En ce qui concerne les photos, quelques règles sont à prendre en compte: seulement les photographies sans flash sont autorisées et les perches à selfies ou les photographies dans les expositions temporaires sont interdites (sauf cas où préciser)");
+define("contenu5_prepVisite", "Faîtes attentions à vos affaires personnels pendant votre visite."); 
+define("contenu6_prepVisite", "L'entrée est gratuit les premiers dimanche de chaque mois entre novembre et mars.");
+define("contenu7_prepVisite", "La visite en fauteuil roulant est possible et l'entré de la personne handicapé et de son accompagnateur est gratuite. De plus, une place a côté du chateau est à disposition pour déposé les personnes handicapé et des fauteuils roulant non motorisés ainsi que l'accès à des chiens guides sont mis à disposition (sous réserve de disponibilité et contre le dépôt temporaire
+d’un document officiel d’identité).");
+define("contenu8_prepVisite", "Des événements sont à prévoir certains jours comme les jardins musicaux, des opéras, des expositions spéciales. Pensez à y jeter un coup d'oeil.")
 
 //galerie
 define("Chateau_galerie","Le Château");

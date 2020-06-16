@@ -36,10 +36,10 @@ define("tel", "Phone");
 define("appel_prix", "(call charge)");
 define("concepteur", "Website Creator");
 define("chef", "Project Leader");
-define("chercheur", "Researcher");
-define("communiquant", "Communicator");
-define("developpeur", "Developer");
-define("designer", "Designer");
+define("chercheur", "Researcher<br>Developer");
+define("communiquant", "Communicator<br>Developer");
+define("developpeur", "Developer<br>Designer");
+define("designer", "Designer<br>Developer");
 
 define("decouvreznous", "Discover us!");
 

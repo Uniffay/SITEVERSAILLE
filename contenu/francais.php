@@ -37,10 +37,10 @@ define("tel", "Tél:");
 define("appel_prix", "(prix d'un appel local)");
 define("concepteur", "Concepteur du site");
 define("chef", "Chef de Projet");
-define("chercheur", "Chercheur");
-define("communiquant", "Communiquant");
-define("developpeur", "Développeur");
-define("designer", "Designer");
+define("chercheur", "Chercheur<br>Développeur");
+define("communiquant", "Communiquant<br>Développeur");
+define("developpeur", "Développeur<br>Designer");
+define("designer", "Designer<br>Développeur");
 
 define("decouvreznous", "Découvrez nous!");
 

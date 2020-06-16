@@ -146,4 +146,13 @@ define("register","Inscription");
 define("confirmPassword","Confirmez mot de passe");
 define("nom","Nom");
 define("prenom","Prénom");
+
+//Mentions légales
+define("contenu1_mention","Merci de lire attentivement les présentes modalités d'utilisation du présent");
+define("contenu2_mention","site avant de le parcourir. En vous connectant sur ce site, vous acceptez");
+define("contenu3_mention","sans réserve les présentes modalités.");
+define("editeur_site","Editeurs du site");
+define("contenu4_mention","L’équipe du site Versailles, étudiants à l’UPEM.");
+define("conditions_duti","Conditions d'utilisation");
+define("contenu5_mention","Notre site Versailles est exploité dans le respect de la législation française. L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par notre Équipe.");
 ?>

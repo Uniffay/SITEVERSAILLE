@@ -1,6 +1,7 @@
 <?php include('includes/header.php'); ?>
 
 <body>
+  <link rel="stylesheet" href="login.css" media="screen" type="text/css" />
   <?php include_once('includes/navbar.php') ?>
   <div id="container">
     <!-- zone de connexion -->

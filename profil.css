@@ -1,0 +1,16 @@
+.profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    width: 30%;
+    margin-top: 20px;
+}

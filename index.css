@@ -265,7 +265,7 @@ iframe.GForm{
 				height: relative;
     }
 
-    map, img:not(.imgNavHea){
+    map, .likeImg, img:not(.imgNavHea){
       position: relative;
       flex-direction: column;
       text-align: center;
@@ -277,6 +277,11 @@ iframe.GForm{
 
     .side, .main{
       margin-left: 0;
+    }
+
+    .side, .likeImg {
+      width : 100%;
+      min-height: 500px;
     }
 
     .navbar li a, .navbar .navbar .dropbtn,{

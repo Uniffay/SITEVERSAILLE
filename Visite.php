@@ -1,5 +1,9 @@
 <?php include_once('includes/header.php');
-      include_once('includes/navbar.php')?>
+if (!isset($_SESSION['username'])) {
+	include_once('includes/navbar.php');
+} else {
+	include_once('includes/navbar-connected.php');
+} ?>
       <body>
         <!--Milieu de la page contenant deux parties-->
         <div class="row">

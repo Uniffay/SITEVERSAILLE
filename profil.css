@@ -10,9 +10,16 @@
     text-align: center;
 }
 
-.profil table {
+.profil table, .profil table thead, .profil table thead th {
     width: 30%;
     margin-top: 20px;
     border-collapse: collapse;
     border: 3px solid black;
+}
+
+.profil table tr, .profil table tr td{
+  width: 30%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border: 5px solid black;
 }

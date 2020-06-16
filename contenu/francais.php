@@ -25,10 +25,12 @@ define("noussommes", "Notre équipe :");
 
 //side
 
-define("billeterie",
-"<h1>Vous êtes intéressé par Versailles ?</h1>
+define(
+    "billeterie",
+    "<h1>Vous êtes intéressé par Versailles ?</h1>
 <h3>Acheter votre billet dès maintenant <h3>
-<a href=\"http://www.chateauversailles.fr/preparer-ma-visite/billets-tarifs\" target=\"_blank\">ici</a> !</h3>");
+<a href=\"http://www.chateauversailles.fr/preparer-ma-visite/billets-tarifs\" target=\"_blank\">ici</a> !</h3>"
+);
 
 //footer
 
@@ -77,18 +79,18 @@ define("anecdotes", "Quelques anecdotes...");
 define("intro", "Savez vous que...");
 define("contenu12_chateau", "Le Château de Versailles est le plus grand domaine royal du monde. En effet, sa superficie est d'environ 67000 mètres carré,");
 define("contenu13_chateau", "cependant il n'est pas le plus grand palais, le Château dispose d'un espace de plus de 815 hectares.");
-define("intro2","Mais aussi que...");
-define("contenu14_chateau","Une nouvelle Galerie nommée la Galerie des Carosses a été ajoutée en 2016 au château de Versailles, on peut y observer des carrosses de l'ancien temps,");
-define("contenu15_chateau","de plus de nouvelles activités sont ajoutés chaque année, ce qui montre encore l'engouement envers ce Château.");
+define("intro2", "Mais aussi que...");
+define("contenu14_chateau", "Une nouvelle Galerie nommée la Galerie des Carosses a été ajoutée en 2016 au château de Versailles, on peut y observer des carrosses de l'ancien temps,");
+define("contenu15_chateau", "de plus de nouvelles activités sont ajoutés chaque année, ce qui montre encore l'engouement envers ce Château.");
 
 
 //visite
 
 define("organiser_visite", "Organiser sa visite");
 define("information_visite", "Informations Générales");
-define("horaires_visite","Horaires d'ouverture:");
-define("horaires_visite2","Le Chateau est ouvert tous les jours à partir de 9h sauf le lundi");
-define("horaires_visite3","Pour plus de précision cliquez <a href=\"prepvisite.php#horaire\">ici</a>");
+define("horaires_visite", "Horaires d'ouverture:");
+define("horaires_visite2", "Le Chateau est ouvert tous les jours à partir de 9h sauf le lundi");
+define("horaires_visite3", "Pour plus de précision cliquez <a href=\"prepvisite.php#horaire\">ici</a>");
 define("visite_visite", "Visites:");
 define("duree_visite", "Durée moyenne de la visite:");
 define("time_visite", "90 minutes");
@@ -111,39 +113,39 @@ define("frise_histoire", "Frise chronologique retraçant l'histoire du Château 
 
 //prepvisite
 
-define("horaires_prepVisite","Horaires détaillées");
-define("horaires_chateau","Le Château");
-define("horaires_chateau2","Ouvert tous les jours sauf le lundi");
-define("horaires_chateau3","Horaires: 9h - 18h30");
-define("horaires_trianon","Le domaine de Trianon");
-define("horaires_trianon2","Ouvert tous les jours sauf le lundi");
-define("horaires_trianon3","Horaires: 12h - 18h30");
-define("horaires_jardins","Les Jardins");
-define("horaires_jardins2","Ouvert tous les jours");
-define("horaires_jardins3","Horaires: 8h - 20h30");
-define("horaires_parc","Le Parc");
-define("horaires_parc2","Ouvert tous les jours");
-define("horaires_parc3","Horaires: 7h - 20h30");
-define("horaires_marly","Le domaine de Marly");
-define("horaires_marly2","Ouvert tous les jours");
-define("horaires_marly3","Horaires: 7h30 - 19h30");
-define("introVisite","Quelques conseils pour préparer sa visite...");
-define("contenu1_prepVisite","Nous vous conseillons de penser à préparer à manger avant votre visite, ou alors d'emmener un pique-nique. Il y aussi des tas de stands de nourriture autour du Château !");
-define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
+define("horaires_prepVisite", "Horaires détaillées");
+define("horaires_chateau", "Le Château");
+define("horaires_chateau2", "Ouvert tous les jours sauf le lundi");
+define("horaires_chateau3", "Horaires: 9h - 18h30");
+define("horaires_trianon", "Le domaine de Trianon");
+define("horaires_trianon2", "Ouvert tous les jours sauf le lundi");
+define("horaires_trianon3", "Horaires: 12h - 18h30");
+define("horaires_jardins", "Les Jardins");
+define("horaires_jardins2", "Ouvert tous les jours");
+define("horaires_jardins3", "Horaires: 8h - 20h30");
+define("horaires_parc", "Le Parc");
+define("horaires_parc2", "Ouvert tous les jours");
+define("horaires_parc3", "Horaires: 7h - 20h30");
+define("horaires_marly", "Le domaine de Marly");
+define("horaires_marly2", "Ouvert tous les jours");
+define("horaires_marly3", "Horaires: 7h30 - 19h30");
+define("introVisite", "Quelques conseils pour préparer sa visite...");
+define("contenu1_prepVisite", "Nous vous conseillons de penser à préparer à manger avant votre visite, ou alors d'emmener un pique-nique. Il y aussi des tas de stands de nourriture autour du Château !");
+define("contenu2_prepVisite", "Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
 
 //galerie
-define("Chateau_galerie","Le Château");
-define("Jardins_galerie","Les Jardins");
+define("Chateau_galerie", "Le Château");
+define("Jardins_galerie", "Les Jardins");
 
 //LOGIN
-define("login","Connexion");
-define("username","Nom d'utilisateur");
-define("password","Mot de passe");
-define("enter","...");
+define("login", "Connexion");
+define("username", "Nom d'utilisateur");
+define("password", "Mot de passe");
+define("enter", "...");
 
 //Inscription
-define("register","Inscription");
-define("confirmPassword","Confirmez mot de passe");
-define("nom","Nom");
-define("prenom","Prénom");
-?>
+define("register", "Inscription");
+define("confirmPassword", "Confirmez mot de passe");
+define("nom", "Nom");
+define("prenom", "Prénom");
+define("infoins", "L'inscription nous permettra de vous tenir informés via e-mail.");

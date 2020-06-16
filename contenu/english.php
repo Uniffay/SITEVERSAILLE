@@ -24,10 +24,12 @@ define("noussommes", "Our team :");
 
 //side
 
-define("billeterie",
-"<h1>Are you interested in Versailles ?</h1>
+define(
+    "billeterie",
+    "<h1>Are you interested in Versailles ?</h1>
 <h3>Buy your ticket now <h3>
-<a href=\"http://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\" target=\"_blank\">here</a> !</h3>");
+<a href=\"http://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\" target=\"_blank\">here</a> !</h3>"
+);
 
 //footer
 
@@ -77,17 +79,17 @@ define("anecdotes", "A few anecdotes...");
 define("intro", "Did you know that...");
 define("contenu12_chateau", "The Palace of Versailles is the largest royal estate in the world. Indeed, its surface is about 67000 square meters,");
 define("contenu13_chateau", "however it is not the largest palace, the Château has an area of more than 815 hectares.");
-define("intro2","But also that...");
-define("contenu14_chateau","A new Gallery called the Gallery of Coaches was added in 2016 to the Palace of Versailles, where you can see coaches from the old days,");
-define("contenu15_chateau","More and more new activities are added every year, which further shows the enthusiasm for this Château.");
+define("intro2", "But also that...");
+define("contenu14_chateau", "A new Gallery called the Gallery of Coaches was added in 2016 to the Palace of Versailles, where you can see coaches from the old days,");
+define("contenu15_chateau", "More and more new activities are added every year, which further shows the enthusiasm for this Château.");
 
 //visite
 
 define("organiser_visite", "Organize your visit");
 define("information_visite", "General informations");
-define("horaires_visite","Opening hours:");
-define("horaires_visite2","The Chateau is open every day from 9am except Monday.");
-define("horaires_visite3","For more information click <a href=\"prepvisite.php#horaire\">here</a>");
+define("horaires_visite", "Opening hours:");
+define("horaires_visite2", "The Chateau is open every day from 9am except Monday.");
+define("horaires_visite3", "For more information click <a href=\"prepvisite.php#horaire\">here</a>");
 define("visite_visite", "Visit:");
 define("duree_visite", "Average length of visit");
 define("time_visite", "90 minutes");
@@ -109,39 +111,39 @@ define("siecle3_visite", "XIXth century");
 define("frise_histoire", "Timeline retracing the history of the Palace of Versailles");
 
 //prep visite
-define("horaires_prepVisite","Detailed schedules");
-define("horaires_chateau","The Chateau");
-define("horaires_chateau2","Open every day except Monday");
-define("horaires_chateau3","Timetable: 9 am - 6.30 pm");
-define("horaires_trianon","The domain of Trianon");
-define("horaires_trianon2","Open every day except Monday");
-define("horaires_trianon3","Hours: 12 p.m. - 6.30 p.m.");
-define("horaires_jardins","The Gardens");
-define("horaires_jardins2","Open every day");
-define("horaires_jardins3","Timetable: 8 am - 8.30 pm");
-define("horaires_parc","The Park");
-define("horaires_parc2","Open every day");
-define("horaires_parc3","Timetable: 7 am - 8.30 pm");
-define("horaires_marly","The Marly's domain");
-define("horaires_marly2","Open every day");
-define("horaires_marly3","Timetable: 7:30 am - 7:30 pm");
-define("introVisite","A few tips to prepare for your visit...");
-define("contenu1_prepVisite","We advise you to think about preparing some food before your visit, or take a picnic with you. There are also plenty of food stalls around the Castle!");
-define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We advise you to visit the most emblematic places of the site such as the Hall of Mirrors for example.");
+define("horaires_prepVisite", "Detailed schedules");
+define("horaires_chateau", "The Chateau");
+define("horaires_chateau2", "Open every day except Monday");
+define("horaires_chateau3", "Timetable: 9 am - 6.30 pm");
+define("horaires_trianon", "The domain of Trianon");
+define("horaires_trianon2", "Open every day except Monday");
+define("horaires_trianon3", "Hours: 12 p.m. - 6.30 p.m.");
+define("horaires_jardins", "The Gardens");
+define("horaires_jardins2", "Open every day");
+define("horaires_jardins3", "Timetable: 8 am - 8.30 pm");
+define("horaires_parc", "The Park");
+define("horaires_parc2", "Open every day");
+define("horaires_parc3", "Timetable: 7 am - 8.30 pm");
+define("horaires_marly", "The Marly's domain");
+define("horaires_marly2", "Open every day");
+define("horaires_marly3", "Timetable: 7:30 am - 7:30 pm");
+define("introVisite", "A few tips to prepare for your visit...");
+define("contenu1_prepVisite", "We advise you to think about preparing some food before your visit, or take a picnic with you. There are also plenty of food stalls around the Castle!");
+define("contenu2_prepVisite", "There is a lot to visit, so don't waste time! We advise you to visit the most emblematic places of the site such as the Hall of Mirrors for example.");
 
 //galerie
-define("Chateau_galerie","The Palace");
-define("Jardins_galerie","The Gardens");
+define("Chateau_galerie", "The Palace");
+define("Jardins_galerie", "The Gardens");
 
 //LOGIN
-define("login","Login");
-define("username","Username");
-define("password","Password");
-define("enter","...");
+define("login", "Login");
+define("username", "Username");
+define("password", "Password");
+define("enter", "...");
 
 //Inscription
-define("register","Register");
-define("confirmPassword","Confirm password");
-define("nom","Name");
-define("prenom","First name");
-?>
+define("register", "Register");
+define("confirmPassword", "Confirm password");
+define("nom", "Name");
+define("prenom", "First name");
+define("infoins", "Registration will allow us to keep you informed via e-mail.");

@@ -25,12 +25,10 @@ define("noussommes", "Notre équipe :");
 
 //side
 
-define(
-    "billeterie",
-    "<h1>Vous êtes intéressé par Versailles ?</h1>
+define("billeterie",
+"<h1>Vous êtes intéressé par Versailles ?</h1>
 <h3>Acheter votre billet dès maintenant <h3>
-<a href=\"http://www.chateauversailles.fr/preparer-ma-visite/billets-tarifs\" target=\"_blank\">ici</a> !</h3>"
-);
+<a href=\"http://www.chateauversailles.fr/preparer-ma-visite/billets-tarifs\" target=\"_blank\">ici</a> !</h3>");
 
 //footer
 
@@ -78,18 +76,18 @@ define("anecdotes", "Quelques anecdotes...");
 define("intro", "Savez vous que...");
 define("contenu12_chateau", "Le Château de Versailles est le plus grand domaine royal du monde. En effet, sa superficie est d'environ 67000 mètres carré,");
 define("contenu13_chateau", "cependant il n'est pas le plus grand palais, le Château dispose d'un espace de plus de 815 hectares.");
-define("intro2", "Mais aussi que...");
-define("contenu14_chateau", "Une nouvelle Galerie nommée la Galerie des Carosses a été ajoutée en 2016 au château de Versailles, on peut y observer des carrosses de l'ancien temps,");
-define("contenu15_chateau", "de plus de nouvelles activités sont ajoutés chaque année, ce qui montre encore l'engouement envers ce Château.");
+define("intro2","Mais aussi que...");
+define("contenu14_chateau","Une nouvelle Galerie nommée la Galerie des Carosses a été ajoutée en 2016 au château de Versailles, on peut y observer des carrosses de l'ancien temps,");
+define("contenu15_chateau","de plus de nouvelles activités sont ajoutés chaque année, ce qui montre encore l'engouement envers ce Château.");
 
 
 //visite
 
 define("organiser_visite", "Organiser sa visite");
 define("information_visite", "Informations Générales");
-define("horaires_visite", "Horaires d'ouverture:");
-define("horaires_visite2", "Le Chateau est ouvert tous les jours à partir de 9h sauf le lundi");
-define("horaires_visite3", "Pour plus de précision cliquez <a href=\"prepvisite.php#horaire\">ici</a>");
+define("horaires_visite","Horaires d'ouverture:");
+define("horaires_visite2","Le Chateau est ouvert tous les jours à partir de 9h sauf le lundi");
+define("horaires_visite3","Pour plus de précision cliquez <a href=\"prepvisite.php#horaire\">ici</a>");
 define("visite_visite", "Visites:");
 define("duree_visite", "Durée moyenne de la visite:");
 define("time_visite", "90 minutes");
@@ -140,26 +138,23 @@ d’un document officiel d’identité).");
 define("contenu8_prepVisite", "Des événements sont disponible certains jour comme les jardins musicaux, des opéras, des expositions spéciales. Pensez à y jeter un coup d'oeil.");
 
 //galerie
-define("Chateau_galerie", "Le Château");
-define("Jardins_galerie", "Les Jardins");
+define("Chateau_galerie","Le Château");
+define("Jardins_galerie","Les Jardins");
 
 //LOGIN
-define("login", "Connexion");
-define("username", "Nom d'utilisateur");
-define("password", "Mot de passe");
-define("enter", "...");
+define("login","Connexion");
+define("username","Nom d'utilisateur");
+define("password","Mot de passe");
+define("enter","...");
 
 //Inscription
 define("register","Inscription");
 define("confirmPassword","Confirmez mot de passe");
 define("nom","Nom");
 define("prenom","Prénom");
-<<<<<<< HEAD
-?>
-=======
-define("infoins", "L'inscription nous permettra de vous tenir informés via e-mail.");
 
 //Mentions légales
+define("mentionslegales", "Mentions légales");
 define("contenu1_mention","Merci de lire attentivement les présentes modalités d'utilisation du présent");
 define("contenu2_mention","site avant de le parcourir. En vous connectant sur ce site, vous acceptez");
 define("contenu3_mention","sans réserve les présentes modalités.");
@@ -167,4 +162,4 @@ define("editeur_site","Editeurs du site");
 define("contenu4_mention","L’équipe du site Versailles, étudiants à l’UPEM.");
 define("conditions_duti","Conditions d'utilisation");
 define("contenu5_mention","Notre site Versailles est exploité dans le respect de la législation française. L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par notre Équipe.");
->>>>>>> d5a0c28da04e06f72c09241ab448293bf57a9c98
+?>

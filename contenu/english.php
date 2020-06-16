@@ -148,4 +148,14 @@ define("register","Register");
 define("confirmPassword","Confirm password");
 define("nom","Name");
 define("prenom","First name");
+
+//Mentions légales
+define("mentionslegales", "Legal disclaimers");
+define("contenu1_mention","Please read these terms and conditions of use carefully");
+define("contenu2_mention","site before browsing it. By logging on to this site, you agree to");
+define("contenu3_mention","without reservation the present terms and conditions.");
+define("editeur_site","Site editors");
+define("contenu4_mention","The Versailles team, students at UPEM.");
+define("conditions_duti","Conditions of use");
+define("contenu5_mention","Our Versailles site is operated in compliance with French legislation. Use of this site is governed by these terms and conditions. By using the site, you recognize to have taken knowledge of these conditions and to have accepted them. These may be modified at any time and without notice by our Team.");
 ?>

@@ -7,7 +7,6 @@ if (!isset($_SESSION['username'])) {
 } ?>
 
 </html>
-include_once('includes/navbar.php')?>
 
 <body>
   <!--Milieu de la page contenant deux parties-->

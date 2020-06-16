@@ -147,7 +147,7 @@ define("register","Register");
 define("confirmPassword","Confirm password");
 define("nom","Name");
 define("prenom","First name");
-
+define("infoins", "Registration will allow us to keep you informed via e-mail.");
 //Mentions légales
 define("mentionslegales", "Legal disclaimers");
 define("contenu1_mention","Please read these terms and conditions of use carefully");

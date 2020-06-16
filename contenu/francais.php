@@ -26,8 +26,9 @@ define("noussommes", "Notre équipe :");
 //side
 
 define("billeterie",
-"<h1>Vous êtes intéressé par Versailles?</h1>
-<h3>Acheter votre billet dès maintenant <a href=\"http://www.chateauversailles.fr/preparer-ma-visite/billets-tarifs\" target=\"_blank\">ici</a> !</h3>");
+"<h1>Vous êtes intéressé par Versailles ?</h1>
+<h3>Acheter votre billet dès maintenant <h3>
+<a href=\"http://www.chateauversailles.fr/preparer-ma-visite/billets-tarifs\" target=\"_blank\">ici</a> !</h3>");
 
 //footer
 
@@ -128,6 +129,10 @@ define("horaires_marly3","Horaires: 7h30 - 19h30");
 define("introVisite","Quelques conseils pour préparer sa visite...");
 define("contenu1_prepVisite","Nous vous conseillons de penser à préparer à manger avant votre visite, ou alors d'emmener un pique-nique. Il y aussi des tas de stands de nourriture autour du Château !");
 define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
+
+//galerie
+define("Chateau_galerie","Le Château");
+define("Jardins_galerie","Les Jardins");
 
 //LOGIN
 define("login","Connexion");

@@ -3,12 +3,12 @@ session_start();
 if(isset($_POST['username']) && isset($_POST['password']))
 {
     include('includes/connexion.php');
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    $nom = $_POST['nom'];
-    $prenom = $_POST['prenom'];
-    $email = $_POST['email'];
-    $password2 = $_POST['password2'];
+    $username = htmlspecialchars($_POST['username']);
+    $password = htmlspecialchars($_POST['password']);
+    $nom = htmlspecialchars($_POST['nom']);
+    $prenom = htmlspecialchars($_POST['prenom']);
+    $email = htmlspecialchars($_POST['email']);
+    $password2 = htmlspecialchars($_POST['password2']);
 
     if($username !== "" && $password !== "") {
         if ($password == $password2) {

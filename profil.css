@@ -13,4 +13,6 @@
 .profil table {
     width: 30%;
     margin-top: 20px;
+    border-collapse: collapse;
+    border: 3px solid black;
 }

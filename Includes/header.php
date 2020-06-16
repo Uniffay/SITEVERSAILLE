@@ -1,9 +1,11 @@
 <?php
 if (!empty($_GET["lang"])) {
-  setcookie("lang", $_GET["lang"]);
-  $url = $_SERVER["PHP_SELF"];
-  $url = strtok($url, '?');
-  header("Location: " . $url);
+  if ($_GET["lang"] == "fr" || $_GET["lang"] == "en") {
+    setcookie("lang", $_GET["lang"]);
+    $url = $_SERVER["PHP_SELF"];
+    $url = strtok($url, '?');
+    header("Location: " . $url);
+  }
 }
 elseif (!isset($_COOKIE["lang"])) {
   setcookie("lang", "fr");

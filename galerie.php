@@ -19,6 +19,8 @@
         <img src="Images/Versaille4.jpg" alt>
         <img src="Images/Versaille5.jpg" alt>
         <img src="Images/Versaille6.jpg" alt>
+        <img src="Images/Versaille7.jpg" alt>
+        <img src="Images/Versaille8.png" alt>
       </div>
     </div>
     <h1><?php echo Jardins_galerie ?></h1>
@@ -27,6 +29,11 @@
         <img src="Images/Jardin.jpg" alt>
         <img src="Images/Jardin2.jpg" alt>
         <img src="Images/Jardin3.jpg" alt>
+        <img src="Images/Jardin4.jpg" alt>
+        <img src="Images/Jardin5.jpg" alt>
+        <img src="Images/Jardin6.jpg" alt>
+        <img src="Images/Jardin7.jpg" alt>
+        <img src="Images/Jardin8.jpg" alt>
       </div>
     </div>
 

@@ -21,10 +21,10 @@
         </li>
         <li><a href="quisommesnous.php"><?php echo quisommesnous ?></a></li>
         <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
-                <img src="Images/francais.png" height="16px" width="25px" alt="eng" align="center" style="margin: 0" /></a>
+                <img class="imgNavHea" src="Images/francais.png" height="16px" width="25px" alt="eng" align="center" style="margin: 0" /></a>
             <li />
         <li><a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=en">
-                <img src="Images/anglais.png" height="16px" width="25px" alt="eng" align="center" style="margin: 0" /></a>
+                <img class="imgNavHea" src="Images/anglais.png" height="16px" width="25px" alt="eng" align="center" style="margin: 0" /></a>
             <li />
     </ul>
 </div>

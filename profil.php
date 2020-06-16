@@ -1,12 +1,14 @@
 <?php
-$infos = $dbh->query("SELECT * FROM `membre` LEFT JOIN `user` ON `membre`.id = `user`.id_membre WHERE `user`.`login` = '" . $_SESSION['username'] . "'");
+session_start();
+include_once('includes/connexion.php');
+$infos = $bdd->query("SELECT * FROM `membre` LEFT JOIN `user` ON `membre`.id = `user`.id_membre WHERE `user`.`login` = '" . $_SESSION['username'] . "'");
 $infoUser = $infos->fetch();
 ?>
 
 <?php include_once('includes/header.php') ?>
 
 <body>
-    <?php session_start();
+    <?php
     if (!isset($_SESSION['username'])) {
         include_once('includes/navbar.php');
     } else {

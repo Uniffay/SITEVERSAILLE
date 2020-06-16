@@ -17,18 +17,14 @@ VERSAILLES <br>
 <?php echo quisommesnous?> <br>
 
 <a href="quisommesnous.php"><?php echo decouvreznous ?></a>
-        </p>
-    </div>
-    <!-- <div id="Infos3">
-<p>
+<br>
+<br>
 
-<?php echo chercheur?> <br>
-
-<a href= "https://www.linkedin.com/in/michel-francisco-5395371a1/" target = "_blank" >FRANCISCO Michel</a>
+<a href= "Mentions.php"><?php echo mentionslegales ?></a>
 
         </p>
     </div>
-    <div id="Infos4">
+    <!-- <div id="Infos4">
 <p>
 
 <?php echo communiquant?> <br>

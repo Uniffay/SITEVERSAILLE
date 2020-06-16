@@ -42,6 +42,7 @@ define("developpeur", "Développeur<br>Designer");
 define("designer", "Designer<br>Développeur");
 
 define("decouvreznous", "Découvrez nous!");
+define("mentionslegales", "Mentions légales");
 
 // index
 

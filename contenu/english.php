@@ -42,6 +42,8 @@ define("designer", "Designer<br>Developer");
 
 define("decouvreznous", "Discover us!");
 
+define("mentionslegales", "Legal disclaimers");
+
 // index
 
 define("bienvenue", "Welcome to Versailles");

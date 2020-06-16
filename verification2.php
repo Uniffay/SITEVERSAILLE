@@ -25,7 +25,7 @@ if(isset($_POST['username']) && isset($_POST['password']))
           try{  $sql = $bdd->exec("INSERT INTO `membre` (nom,prenom,email) values ('$nom', '$prenom', '$email')");
               $getid = $bdd->query("SELECT id FROM membre WHERE nom = '$nom'");
               $idligne = $getid->fetch();
-              $id = $idligne['id']+1;
+              $id = $idligne['id'];
               $adduser = $bdd->exec("INSERT INTO `user` (login,password,id_membre) values ('$username', '$password, '$id')");
             }
 
@@ -54,4 +54,3 @@ else
    header('Location: register.php');
 }
 mysqli_close($bdd); // fermer la connexion
-?>

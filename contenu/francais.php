@@ -112,28 +112,28 @@ define("frise_histoire", "Frise chronologique retraçant l'histoire du Château 
 
 //prepvisite
 
-define("horaires_prepVisite","Horaires détaillées");
-define("horaires_chateau","Le Château");
-define("horaires_chateau2","Ouvert tous les jours sauf le lundi");
-define("horaires_chateau3","Horaires: 9h - 18h30");
-define("horaires_trianon","Le domaine de Trianon");
-define("horaires_trianon2","Ouvert tous les jours sauf le lundi");
-define("horaires_trianon3","Horaires: 12h - 18h30");
-define("horaires_jardins","Les Jardins");
-define("horaires_jardins2","Ouvert tous les jours");
-define("horaires_jardins3","Horaires: 8h - 20h30");
-define("horaires_parc","Le Parc");
-define("horaires_parc2","Ouvert tous les jours");
-define("horaires_parc3","Horaires: 7h - 20h30");
-define("horaires_marly","Le domaine de Marly");
-define("horaires_marly2","Ouvert tous les jours");
-define("horaires_marly3","Horaires: 7h30 - 19h30");
-define("introVisite","Quelques conseils pour préparer sa visite...");
-define("contenu1_prepVisite","Nous vous conseillons de penser à préparer à manger avant votre visite, ou alors d'emmener un pique-nique. Il y aussi des tas de stands de nourriture autour du Château !");
-define("contenu2_prepVisite","Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
+define("horaires_prepVisite", "Horaires détaillées");
+define("horaires_chateau", "Le Château");
+define("horaires_chateau2", "Ouvert tous les jours sauf le lundi");
+define("horaires_chateau3", "Horaires: 9h - 18h30");
+define("horaires_trianon", "Le domaine de Trianon");
+define("horaires_trianon2", "Ouvert tous les jours sauf le lundi");
+define("horaires_trianon3", "Horaires: 12h - 18h30");
+define("horaires_jardins", "Les Jardins");
+define("horaires_jardins2", "Ouvert tous les jours");
+define("horaires_jardins3", "Horaires: 8h - 20h30");
+define("horaires_parc", "Le Parc");
+define("horaires_parc2", "Ouvert tous les jours");
+define("horaires_parc3", "Horaires: 7h - 20h30");
+define("horaires_marly", "Le domaine de Marly");
+define("horaires_marly2", "Ouvert tous les jours");
+define("horaires_marly3", "Horaires: 7h30 - 19h30");
+define("introVisite", "Quelques conseils pour préparer sa visite...");
+define("contenu1_prepVisite", "Nous vous conseillons de penser à préparer à manger avant votre visite, ou alors d'emmener un pique-nique. Il y aussi des tas de stands de nourriture autour du Château !");
+define("contenu2_prepVisite", "Il y a beaucoup à visiter, donc ne perdez pas de temps ! Nous vous conseillons de visiter les lieux les plus emblématiques du site tel que le Palais des Glaces par exemple.");
 define("contenu3_prepVisite", "Nous vous conseillons de visiter le château à l'ouverture(9h) et le Trianon à midi pendant les hautes saisons dû a une forte influence.");
 define("contenu4_prepVisite", "En ce qui concerne les photos, quelques règles sont à prendre en compte: seulement les photographies sans flash sont autorisées et les perches à selfies ou les photographies dans les expositions temporaires sont interdites (sauf cas où préciser)");
-define("contenu5_prepVisite", "Faîtes attentions à vos affaires personnels pendant votre visite."); 
+define("contenu5_prepVisite", "Faîtes attentions à vos affaires personnels pendant votre visite.");
 define("contenu6_prepVisite", "L'entrée est gratuit les premiers dimanche de chaque mois entre novembre et mars.");
 define("contenu7_prepVisite", "La visite en fauteuil roulant est possible et l'entré de la personne handicapé et de son accompagnateur est gratuite. De plus, une place a côté du chateau est à disposition pour déposé les personnes handicapé et des fauteuils roulant non motorisés ainsi que l'accès à des chiens guides sont mis à disposition (sous réserve de disponibilité et contre le dépôt temporaire
 d’un document officiel d’identité).");
@@ -150,21 +150,17 @@ define("password", "Mot de passe");
 define("enter", "...");
 
 //Inscription
-define("register","Inscription");
-define("confirmPassword","Confirmez mot de passe");
-define("nom","Nom");
-define("prenom","Prénom");
-<<<<<<< HEAD
-?>
-=======
+define("register", "Inscription");
+define("confirmPassword", "Confirmez mot de passe");
+define("nom", "Nom");
+define("prenom", "Prénom");
 define("infoins", "L'inscription nous permettra de vous tenir informés via e-mail.");
 
 //Mentions légales
-define("contenu1_mention","Merci de lire attentivement les présentes modalités d'utilisation du présent");
-define("contenu2_mention","site avant de le parcourir. En vous connectant sur ce site, vous acceptez");
-define("contenu3_mention","sans réserve les présentes modalités.");
-define("editeur_site","Editeurs du site");
-define("contenu4_mention","L’équipe du site Versailles, étudiants à l’UPEM.");
-define("conditions_duti","Conditions d'utilisation");
-define("contenu5_mention","Notre site Versailles est exploité dans le respect de la législation française. L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par notre Équipe.");
->>>>>>> d5a0c28da04e06f72c09241ab448293bf57a9c98
+define("contenu1_mention", "Merci de lire attentivement les présentes modalités d'utilisation du présent");
+define("contenu2_mention", "site avant de le parcourir. En vous connectant sur ce site, vous acceptez");
+define("contenu3_mention", "sans réserve les présentes modalités.");
+define("editeur_site", "Editeurs du site");
+define("contenu4_mention", "L’équipe du site Versailles, étudiants à l’UPEM.");
+define("conditions_duti", "Conditions d'utilisation");
+define("contenu5_mention", "Notre site Versailles est exploité dans le respect de la législation française. L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par notre Équipe.");

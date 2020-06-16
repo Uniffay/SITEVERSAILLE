@@ -10,11 +10,8 @@
             <h1><?php echo presentation_chateau?></h1>
 				<p>
 				<?php echo contenu1_chateau ?>
-				<br>
 				<?php echo contenu2_chateau ?>
-				<br>
 				<?php echo contenu3_chateau ?>
-				<br>
 				<?php echo contenu4_chateau ?>
         <br>
         <br>
@@ -60,7 +57,6 @@
         <br>
         <p>
         <?php echo contenu12_chateau?>
-        <br>
         <?php echo contenu13_chateau?>
         </p>
         <br>
@@ -69,7 +65,6 @@
         <br>
         <p>
         <?php echo contenu14_chateau?>
-        <br>
         <?php echo contenu15_chateau?>
         </p>
 

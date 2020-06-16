@@ -173,4 +173,5 @@ define("contenu11_mention","Our Team is identically the owner of the 'rights of 
 define("cookies","Cookies");
 define("contenu12_mention","For layout and language purposes, this site uses cookies. These are small text files stored on your hard drive to record technical data about your navigation.");
 define("contact","Contact us");
-define("contenu13_mention","Our Team is at your disposal for all your comments or suggestions. You can write to us in French by e-mail at: <b>qboulet@etud.u-pem.fr, vdomin01@etud.u-pem.fr </b>.")
+define("contenu13_mention","Our Team is at your disposal for all your comments or suggestions. You can write to us in French by e-mail at: <b>qboulet@etud.u-pem.fr, vdomin01@etud.u-pem.fr </b>.");
+?>

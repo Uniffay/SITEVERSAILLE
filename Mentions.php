@@ -7,9 +7,9 @@
             <div class="main">
               <h1><?php echo mentionslegales ?></h1>
       				<p>
-      				<?php echo contenu1_mention ?>
+      				<b><?php echo contenu1_mention ?>
       				<?php echo contenu2_mention ?>
-      				<?php echo contenu3_mention ?>
+      				<?php echo contenu3_mention ?></b>
       				<br>
               <br>
               </p>

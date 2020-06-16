@@ -5,11 +5,11 @@ session_start();
  <?php
    if (isset($_POST['submit']) && $_POST['submit'] == 'inscription') {
      include_once('includes/connexion.php');
-     $login = $_POST['login'];
-     $mdp = $_POST['mdp'];
-     $nom = $_POST['nom'];
-     $prenom = $_POST['prenom'];
-     $email = $_POST['email'];
+     $login = htmlspecialchars($_POST['login']);
+     $mdp = htmlspecialchars($_POST['mdp']);
+     $nom = htmlspecialchars($_POST['nom']);
+     $prenom = htmlspecialchars($_POST['prenom']);
+     $email = htmlspecialchars($_POST['email']);
 
      try {
        $addmembre=$dbh->exec("INSERT INTO membre VALUES ('$nom','$prenom','$email')");

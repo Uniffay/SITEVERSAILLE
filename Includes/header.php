@@ -9,7 +9,7 @@ elseif (!isset($_COOKIE["lang"])) {
   setcookie("lang", "fr");
 }
 
-if ($_COOKIE["lang"] == "fr") {
+if ($_COOKIE["lang"] === "fr") {
     require_once "contenu/francais.php";
 } else {
     require_once "contenu/english.php";

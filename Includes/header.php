@@ -7,7 +7,8 @@ if (!empty($_GET["lang"])) {
     header("Location: " . $url);
   }
 }
-elseif (!isset($_COOKIE["lang"])) {
+
+if (!isset($_COOKIE["lang"])) {
   setcookie("lang", "fr");
 }
 

@@ -5,6 +5,7 @@ session_start();
 <?php include_once('includes/header.php') ?>
 
 <body>
+  <link rel="stylesheet" href="login.css" media="screen" type="text/css" />
     <?php include_once('includes/navbar.php') ?>
 
     <div id="container">

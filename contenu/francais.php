@@ -43,7 +43,6 @@ define("developpeur", "Développeur<br>Designer");
 define("designer", "Designer<br>Développeur");
 
 define("decouvreznous", "Découvrez nous!");
-define("mentionslegales", "Mentions légales");
 
 // index
 
@@ -136,7 +135,7 @@ define("contenu5_prepVisite", "Faîtes attentions à vos affaires personnels pen
 define("contenu6_prepVisite", "L'entrée est gratuit les premiers dimanche de chaque mois entre novembre et mars.");
 define("contenu7_prepVisite", "La visite en fauteuil roulant est possible et l'entré de la personne handicapé et de son accompagnateur est gratuite. De plus, une place a côté du chateau est à disposition pour déposé les personnes handicapé et des fauteuils roulant non motorisés ainsi que l'accès à des chiens guides sont mis à disposition (sous réserve de disponibilité et contre le dépôt temporaire
 d’un document officiel d’identité).");
-define("contenu8_prepVisite", "Des événements sont à prévoir certains jours comme les jardins musicaux, des opéras, des expositions spéciales. Pensez à y jeter un coup d'oeil.")
+define("contenu8_prepVisite", "Des événements sont disponible certains jour comme les jardins musicaux, des opéras, des expositions spéciales. Pensez à y jeter un coup d'oeil.");
 
 //galerie
 define("Chateau_galerie","Le Château");
@@ -153,13 +152,4 @@ define("register","Inscription");
 define("confirmPassword","Confirmez mot de passe");
 define("nom","Nom");
 define("prenom","Prénom");
-
-//Mentions légales
-define("contenu1_mention","Merci de lire attentivement les présentes modalités d'utilisation du présent");
-define("contenu2_mention","site avant de le parcourir. En vous connectant sur ce site, vous acceptez");
-define("contenu3_mention","sans réserve les présentes modalités.");
-define("editeur_site","Editeurs du site");
-define("contenu4_mention","L’équipe du site Versailles, étudiants à l’UPEM.");
-define("conditions_duti","Conditions d'utilisation");
-define("contenu5_mention","Notre site Versailles est exploité dans le respect de la législation française. L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par notre Équipe.");
 ?>

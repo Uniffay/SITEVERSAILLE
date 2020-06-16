@@ -35,6 +35,7 @@
               </div>
               </div>
               <h1><?php echo Jardins_galerie ?></h1>
+              
             </main>
 
   <?php include_once('includes/footer.php') ?>

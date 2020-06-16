@@ -1,8 +1,10 @@
-*{box-sizing:border-box}
+*{
+	box-sizing:border-box
+}
 
-img{max-width:100%}
-
-.caroussel_diapo input{position:absolute;left:-9999px}
+.caroussel_diapo input{
+	position:absolute;left:-9999px
+}
 
 .caroussel_diapo{
 position:relative;
@@ -31,7 +33,9 @@ left: 0;
 outline:1px solid transparent;
 backface-visibility:hidden;
 will-change: transform;
-transition: 1s transform
+transition: 1s transform;
+width: 500px;
+height: 332px;
 }
 
 

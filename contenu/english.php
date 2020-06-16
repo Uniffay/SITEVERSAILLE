@@ -25,8 +25,9 @@ define("noussommes", "Our team :");
 //side
 
 define("billeterie",
-"<h1>Are you interested in Versailles?</h1>
-<h3>Buy your ticket now <a href=\"http://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\" target=\"_blank\">here</a> !</h3>");
+"<h1>Are you interested in Versailles ?</h1>
+<h3>Buy your ticket now <h3>
+<a href=\"http://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\" target=\"_blank\">here</a> !</h3>");
 
 //footer
 
@@ -127,6 +128,10 @@ define("horaires_marly3","Timetable: 7:30 am - 7:30 pm");
 define("introVisite","A few tips to prepare for your visit...");
 define("contenu1_prepVisite","We advise you to think about preparing some food before your visit, or take a picnic with you. There are also plenty of food stalls around the Castle!");
 define("contenu2_prepVisite","There is a lot to visit, so don't waste time! We advise you to visit the most emblematic places of the site such as the Hall of Mirrors for example.");
+
+//galerie
+define("Chateau_galerie","The Palace");
+define("Jardins_galerie","The Gardens");
 
 //LOGIN
 define("login","Login");

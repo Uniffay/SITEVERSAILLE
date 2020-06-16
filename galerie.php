@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <?php include_once('includes/header.php') ?>
+<?php include_once('includes/header.php') ?>
   <link rel="stylesheet" href="galerie.css" media="screen" type="text/css" />
   <body>
   <?php include_once('includes/navbar.php')?>
@@ -35,7 +33,7 @@
               </div>
               </div>
               <h1><?php echo Jardins_galerie ?></h1>
-              
+
             </main>
 
   <?php include_once('includes/footer.php') ?>

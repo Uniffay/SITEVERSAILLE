@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <!-- importer le fichier de style -->
-  <?php include('includes/header.php'); ?>
-  <link rel="stylesheet" href="login.css" media="screen" type="text/css" />
-</head>
+<?php include('includes/header.php'); ?>
 
 <body>
   <?php include_once('includes/navbar.php') ?>

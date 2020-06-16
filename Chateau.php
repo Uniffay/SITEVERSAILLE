@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <body>
-      <?php include_once('includes/header.php');
-            include_once('includes/navbar.php')?>
+<?php include_once('includes/header.php');
+      include_once('includes/navbar.php')?>
+        <body>
         <!--Milieu de la page contenant deux parties-->
         <div class="row">
             <!--Partie gauche du milieu de la page-->

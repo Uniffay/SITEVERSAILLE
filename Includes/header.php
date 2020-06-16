@@ -17,7 +17,8 @@ if ($_COOKIE["lang"] == "fr") {
     require_once "contenu/english.php";
 }
 ?>
-
+<!DOCTYPE html>
+<html>
 <head>
     <title> <?php echo nom_chateau ?></title>
     <link rel="stylesheet" type="text/css" href="index.css">

@@ -155,11 +155,8 @@ define("prenom","Prénom");
 
 //Mentions légales
 
-define("register", "Inscription");
-define("confirmPassword", "Confirmez mot de passe");
-define("nom", "Nom");
-define("prenom", "Prénom");
 define("infoins", "L'inscription nous permettra de vous tenir informés via e-mail.");
+define("mentionslegales", "Mentions légales");
 
 //Mentions légales
 define("contenu1_mention", "Merci de lire attentivement les présentes modalités d'utilisation du présent");

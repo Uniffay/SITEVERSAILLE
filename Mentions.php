@@ -31,6 +31,7 @@
               <p>
                 <?php echo contenu6_mention ?>
                 <br>
+                <br>
                 <?php echo contenu7_mention ?>
               <br>
               <br>
@@ -45,7 +46,9 @@
               <p>
               <?php echo contenu9_mention ?>
               <br>
+              <br>
               <?php echo contenu10_mention ?>
+              <br>
               <br>
               <?php echo contenu11_mention ?>
               <br>

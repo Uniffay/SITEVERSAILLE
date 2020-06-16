@@ -128,8 +128,14 @@ define("horaires_marly", "The Marly's domain");
 define("horaires_marly2", "Open every day");
 define("horaires_marly3", "Timetable: 7:30 am - 7:30 pm");
 define("introVisite", "A few tips to prepare for your visit...");
-define("contenu1_prepVisite", "We advise you to think about preparing some food before your visit, or take a picnic with you. There are also plenty of food stalls around the Castle!");
+define("contenu1_prepVisite", "We advise you to think about preparing some food before your visit, or take a picnic with you. There are also plenty of food stalls around the Chateau!");
 define("contenu2_prepVisite", "There is a lot to visit, so don't waste time! We advise you to visit the most emblematic places of the site such as the Hall of Mirrors for example.");
+define("contenu3_prepVisite", "We advise you to visit the Chateau at the opening(9h) and the Trianon at noon during the high seasons due to a strong influence.");
+define("contenu4_prepVisite", "As far as photos are concerned, some rules are to be taken into account: only photographs without flash are allowed and selfies poles or photographs in temporary exhibitions are forbidden (unless otherwise specified).");
+define("contenu5_prepVisite", "Pay attention to your personal belongings during your visit.");
+define("contenu6_prepVisite", "Entrance is free on the first Sunday of each month between November and March.");
+define("contenu7_prepVisite", "Visiting in a wheelchair is possible and the entrance of the disabled person and his/her companion is free of charge. In addition, a place next to the Chateau is available for disabled persons and non-motorized wheelchairs and access to guide dogs are provided (subject to availability and against temporary deposit of an official identity document).");
+define("contenu8_prepVisite", "Events are to be planned on certain days such as musical gardens, operas, special exhibitions. Think about taking a look at it.");
 
 //galerie
 define("Chateau_galerie", "The Palace");

@@ -2,7 +2,12 @@
 <link rel="stylesheet" href="galerie.css" media="screen" type="text/css" />
 
 <body>
-  <?php include_once('includes/navbar.php') ?>
+  <?php session_start();
+  if (!isset($_SESSION['username'])) {
+    include_once('includes/navbar.php');
+  } else {
+    include_once('includes/navbar-connected.php');
+  } ?>
   <!--Partie gauche du milieu de la page-->
   <main>
     <h1><?php echo Chateau_galerie ?></h1>

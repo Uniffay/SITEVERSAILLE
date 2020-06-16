@@ -23,15 +23,15 @@ $infoUser = $infos->fetch();
             <main>
                 <div class="profil">
                     <table>
+                        <thead>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Adresse e-mail</th>
+                        </thead>
                         <tr>
-                            <th colspan="1">Nom</th>
-                            <th colspan="1">Prénom</th>
-                            <th colspan="2">Adresse e-mail</th>
-                        </tr>
-                        <tr>
-                            <td colspan="1"><?php echo $infoUser['nom'] ?></td>
-                            <td colspan="1"><?php echo $infoUser['prenom'] ?></td>
-                            <td colspan="1"><?php echo $infoUser['email'] ?></td>
+                            <td><?php echo $infoUser['nom'] ?></td>
+                            <td><?php echo $infoUser['prenom'] ?></td>
+                            <td><?php echo $infoUser['email'] ?></td>
                         </tr>
                     </table>
                 </div>

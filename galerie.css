@@ -1,101 +1,204 @@
-/*****carrousel 3d automatique*****/
+*{
+	box-sizing:border-box
+}
 
-*{box-sizing : border-box}
+.caroussel_diapo input{
+	position:absolute;left:-9999px
+}
 
-img{max-width:100%}
+.caroussel_diapo{
+position:relative;
+text-align: center;
+margin:0 auto}
 
-.contenu_carou_auto{
 
-margin:2rem auto;
-width:420px;
-height:279px;
-perspective:8000px
+.contenu_carou {
+width: 500px;
+height: 332px;
+margin: 2rem auto;
+perspective: 1000px}
+
+
+.caroussel {
+position: relative;
+transform-style: preserve-3d;
+width: 500px;
+height: 332px;
+transition: 1s transform}
+
+.caroussel img {
+position: absolute;
+top: 0;
+left: 0;
+outline:1px solid transparent;
+backface-visibility:hidden;
+will-change: transform;
+transition: 1s transform;
+width: 500px;
+height: 332px;
+}
+
+
+.caroussel img:nth-child(1){
+
+	transform:translate3d(0,0,540px) scale(.8)
 
 	}
 
-.caroussel-image{
+.caroussel img:nth-child(2){
 
-animation:rotation 24s infinite alternate linear;
-transform-style:preserve-3d;
-position:relative;
+	transform:rotateY(45deg) translateZ(540px) scale(.8)
+
+	}
+
+.caroussel img:nth-child(3){
+
+	transform:rotateY(90deg) translateZ(540px) scale(.8)
+
+	}
+
+.caroussel img:nth-child(4){
+
+	transform:rotateY(135deg) translateZ(540px) scale(.8)
+
+	}
+
+.caroussel img:nth-child(5){
+
+	transform:rotateY(180deg) translateZ(540px) scale(.8)
+
+	}
+
+.caroussel img:nth-child(6){
+
+	transform:rotateY(225deg) translateZ(540px) scale(.8)
+
+	}
+
+.caroussel img:nth-child(7){
+
+transform:rotateY(270deg) translateZ(540px) scale(.8)
+
+	}
+
+.caroussel img:nth-child(8){
+
+transform:rotateY(315deg) translateZ(540px) scale(.8)
 
 }
 
-.caroussel-image img{
-
-position: absolute;
-top:0;
-left: 0;
-
-
+.caroussel_diapo input[type=radio] + label {
+cursor: pointer;
+background-color: hsl(203,77%,81%);
+display: inline-block;
+width: 20px;
+border-radius: 50%;
+height: 20px
 	}
 
+.caroussel_diapo input[type=radio]:checked + label{
 
-
-.caroussel-image img{
-
-filter:drop-shadow(0 12px 5px hsla(0,0%,0%,.4));
-width:400px;
-height:266px;
-left:10px;
-outline:1px solid transparent;
-backface-visibility:hidden
-
-	}
-
-.caroussel-image img:nth-child(1){
-
-transform:translate3d(0,0,495px)
-
-		}
-
-.caroussel-image img:nth-child(2){
-
-transform:rotateY(45deg) translateZ(495px)
-
-		}
-
-.caroussel-image img:nth-child(3){
-
-	transform:rotateY(90deg) translateZ(495px)
-
-	}
-
-.caroussel-image img:nth-child(4){
-
-	transform:rotateY(135deg) translateZ(495px)
-
-	}
-
-.caroussel-image img:nth-child(5){
-
-	transform:rotateY(180deg) translateZ(495px)
-
-	}
-
-.caroussel-image img:nth-child(6){
-
-	transform:rotateY(225deg) translateZ(495px)
-
-	}
-
-.caroussel-image img:nth-child(7){
-
-	transform:rotateY(270deg) translateZ(495px)
-
-	}
-
-.caroussel-image img:nth-child(8){
-
-	transform:rotateY(315deg) translateZ(495px)
+	background-color:hsl(203,77%,61%)
 
 	}
 
 
 
 
-@keyframes rotation{
-from{transform:rotatey(0)}
-to{transform:rotatey(1turn)}}
+/*gauche*/
+.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel{
 
-/*****fin carrousel 3d automatique*****/
+	transform:translateZ(-540px)
+
+	}
+
+.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel{
+
+transform:translateZ(-540px) rotateY(-45deg)
+
+	}
+
+.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel{
+
+	transform:translateZ(-540px) rotateY(-90deg)
+
+	}
+
+.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel{
+
+	transform:translateZ(-540px) rotateY(-135deg)
+
+	}
+
+.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel{
+
+	transform:translateZ(-540px) rotateY(-180deg)
+
+	}
+
+.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel{
+
+	transform:translateZ(-540px) rotateY(-225deg)
+
+	}
+
+.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel{
+
+	transform:translateZ(-540px) rotateY(-270deg)
+
+	}
+
+.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel{
+
+	transform:translateZ(-540px) rotateY(-315deg)
+
+	}
+
+
+/*droite*/
+.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel img:nth-child(1){
+
+	transform:translateZ(540px) scale(1)
+
+	}
+
+.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel img:nth-child(2){
+
+transform:rotateY(45deg) translateZ(540px) scale(1)
+
+	}
+.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel img:nth-child(3){
+
+	transform:rotateY(90deg) translateZ(540px) scale(1)
+
+	}
+
+.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel img:nth-child(4){
+
+	transform:rotateY(135deg) translateZ(540px) scale(1)
+
+	}
+
+.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel img:nth-child(5){
+
+	transform:rotateY(180deg) translateZ(540px) scale(1)
+
+	}
+
+.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel img:nth-child(6){
+
+	transform:rotateY(225deg) translateZ(540px) scale(1)
+
+	}
+
+.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel img:nth-child(7){
+
+	transform:rotateY(270deg) translateZ(540px) scale(1)
+
+	}
+
+.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel img:nth-child(8){
+
+	transform:rotateY(315deg) translateZ(540px) scale(1)
+
+	}

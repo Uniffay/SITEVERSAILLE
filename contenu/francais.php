@@ -169,3 +169,17 @@ define("editeur_site", "Editeurs du site");
 define("contenu4_mention", "L’équipe du site Versailles, étudiants à l’UPEM.");
 define("conditions_duti", "Conditions d'utilisation");
 define("contenu5_mention", "Notre site Versailles est exploité dans le respect de la législation française. L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par notre Équipe.");
+define("limi_resp","Limitation de responsabilité");
+define("contenu6_mention","Les informations contenues sur ce site sont aussi précises que possibles, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui paraît être un dysfonctionnement, merci de bien vouloir le signaler par email en décrivant le problème de la manière la plus précise possible (page posant problème, action déclenchant, type d’ordinateur et de navigateur utilisé, …).");
+define("contenu7_mention","Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. En conséquence, notre Équipe ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur ou d'une quelconque perte de données consécutives au téléchargement.");
+define("privacy","Confidentialité");
+define("contenu8_mention","Vos données personnelles sont confidentielles et ne seront en aucun cas communiquées à des tiers hormis pour la bonne exécution de la prestation.");
+define("propri_inte","Propriété intellectuelle");
+define("contenu9_mention","Tout le contenu du présent site, incluant, de façon non limitative, les images, textes, animations, et icônes ainsi que leur mise en forme sont la propriété exclusive de notre Équipe.");
+define("contenu10_mention","Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit de notre Équipe. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur. En outre, les propriétaires des Contenus copiés pourraient intenter une action en justice à votre encontre.");
+define("contenu11_mention","Notre Équipe est identiquement propriétaire des 'droits des producteurs de bases de données' visés au Livre III, Titre IV, du Code de la Propriété Intellectuelle (loi n° 98-536 du 1er juillet 1998) relative aux droits d'auteur et aux bases de données.");
+define("cookies","Cookies");
+define("contenu12_mention","Pour des besoins de mise en pages et de langues, le présent site utilise des cookies. Il s'agit de petits fichiers textes stockés sur votre disque dur afin d'enregistrer des données techniques sur votre navigation.");
+define("contact","Contactez-nous");
+define("contenu13_mention","Notre Équipe est à votre disposition pour tous vos commentaires ou suggestions. Vous pouvez nous écrire en français par courrier électronique à :<b>qboulet@etud.u-pem.fr, vdomin01@etud.u-pem.fr </b>.");
+?>

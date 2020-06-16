@@ -2,14 +2,10 @@
 session_start();
 ?>
 
-<head>
-    <meta charset="utf-8">
-    <!-- importer le fichier de style -->
-    <link rel="stylesheet" href="login.css" media="screen" type="text/css" />
-</head>
 <?php include_once('includes/header.php') ?>
 
 <body>
+  <link rel="stylesheet" href="login.css" media="screen" type="text/css" />
     <?php include_once('includes/navbar.php') ?>
 
     <div id="container">

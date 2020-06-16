@@ -257,12 +257,22 @@ iframe.GForm{
 
 /*Change la disposition complète de la page pour s'adapter aux tailles du navigateur (par exemple en fonction de l'appareil utilisé), tous sera disposé en une colonne*/
 @media screen and (max-width: 1000px) {
-    .row, .navbar, .navbar .dropdown-content, .navbar .dropdown-content a , .footer-2, img{
+    .row, .navbar, .navbar .dropdown-content, .navbar .dropdown-content a , .footer-2, img.imgNavHea{
         position: relative;
         flex-direction: column;
         text-align: center;
 				width: relative;
 				height: relative;
+    }
+
+    map, img:not(.imgNavHea){
+      position: relative;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+
     }
 
     .side, .main{

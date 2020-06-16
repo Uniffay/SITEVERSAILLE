@@ -1,5 +1,4 @@
-<?php include_once('includes/header.php');
-session_start();
+<?php session_start();
 if (!isset($_SESSION['username'])) {
 	include_once('includes/navbar.php');
 } else {
@@ -59,7 +58,6 @@ if (!isset($_SESSION['username'])) {
 				<br>
 				> <?php echo siecle3_visite ?>
 			</p>
-			<img src=" " />
 		</div>
 		<!--Fin de la partie gauche du milieu de la page-->
 	</div>

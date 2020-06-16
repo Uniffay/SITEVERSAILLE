@@ -54,7 +54,6 @@
       				<br>
       					> <?php echo siecle3_visite?>
     				</p>
-            <img src=" "/>
           </div>
           <!--Fin de la partie gauche du milieu de la page-->
         </div>

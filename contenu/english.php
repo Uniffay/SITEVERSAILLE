@@ -43,8 +43,6 @@ define("designer", "Designer<br>Developer");
 
 define("decouvreznous", "Discover us!");
 
-define("mentionslegales", "Legal disclaimers");
-
 // index
 
 define("bienvenue", "Welcome to Versailles");
@@ -133,7 +131,7 @@ define("contenu4_prepVisite", "As far as photos are concerned, some rules are to
 define("contenu5_prepVisite", "Pay attention to your personal belongings during your visit.");
 define("contenu6_prepVisite", "Entrance is free on the first Sunday of each month between November and March.");
 define("contenu7_prepVisite", "Visiting in a wheelchair is possible and the entrance of the disabled person and his/her companion is free of charge. In addition, a place next to the Chateau is available for disabled persons and non-motorized wheelchairs and access to guide dogs are provided (subject to availability and against temporary deposit of an official identity document).");
-define("contenu8_prepVisite", "Events are to be planned on certain days such as musical gardens, operas, special exhibitions. Think about taking a look at it.");
+define("contenu8_prepVisite", "Events are availaible on certain days such as musical gardens, operas, special exhibitions. Think about taking a look at it.");
 
 //galerie
 define("Chateau_galerie","The Palace");
@@ -150,13 +148,4 @@ define("register","Register");
 define("confirmPassword","Confirm password");
 define("nom","Name");
 define("prenom","First name");
-
-//Mentions légales
-define("contenu1_mention","Please read these terms and conditions of use carefully");
-define("contenu2_mention","site before browsing it. By logging on to this site, you agree to");
-define("contenu3_mention","without reservation the present terms and conditions.");
-define("editeur_site","Site editors");
-define("contenu4_mention","The Versailles team, students at UPEM.");
-define("conditions_duti","Conditions of use");
-define("contenu4_mention","Our Versailles site is operated in compliance with French legislation. Use of this site is governed by these terms and conditions. By using the site, you recognize to have taken knowledge of these conditions and to have accepted them. These may be modified at any time and without notice by our Team.");
 ?>

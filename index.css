@@ -24,6 +24,10 @@
 	src: url('Police/Cicle Fina Italic.ttf');
 }
 
+html{
+  height: 100vh;
+}
+
 * {
     box-sizing: border-box;
     font-family: "Dyno","Cycle", Arial, sans-serif;
@@ -84,14 +88,29 @@ body{
 		color: #fff;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.stickyTwo{
+  position: fixed;
+}
+
+.sticky + .row {
+  padding-top: 60px;
+}
+
 /*Boîte flex CSS contenant la barre de navigation*/
-.navbar {
+.navbar, .topnav {
+  overflow: hidden;
     display: flex;
     background-color: #505050;
 }
 
 /*Liste pour la barre de navigation*/
-ul.navbar {
+ul.navbar, .topnav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -99,8 +118,68 @@ ul.navbar {
     background-color: #505050;
 }
 
+.topnav {
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    width: relative;
+    height: relative;
+}
+
+
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  padding-right: revert;
+  padding-left: revert;
+  width: 25%;
+}
+
+.topnav li a, .topnav .dropbtn, .topnav .dropdown-content *:not(.active){
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  padding-right: revert;
+  padding-left: revert;
+  width: 100%;
+}
+
+.topnav .dropdown-content *:not(.active){
+  color: black;
+  background-color: white;
+}
+
+.topnav .dropdown-content .active{
+  color: white;
+  background-color: rgb(248, 176, 62);
+}
+
+.topnav .dropdown-content *:not(.active):hover{
+  background-color: rgb(248, 176, 62);
+  color: white;
+}
+
+.topnav li a:hover, .topnav .dropdown:hover .dropbtn {
+    background-color: rgb(248, 176, 62);
+    color: white;
+}
+
+.topnav .dropdown-content, .topnav .dropdown-content a {
+  position: block;
+  flex-direction: column;
+  text-align: center;
+  width: relative;
+  height: relative;
+}
+
+
 /*Position de la liste/des informations de la barre de navigation sur la gauche*/
-.navbar li {
+.navbar li{
     float: left;
 }
 
@@ -123,13 +202,23 @@ ul.navbar {
 .navbar li.dropdown {}*/
 
 /*Disposition des choix des menus déroulant de certains objets de la liste/barre de navigation*/
-.navbar .dropdown-content {
+.navbar .dropdown-content, .topnav .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 2;
+}
+
+.navbar .dropdown-content *:not(.active):hover{
+  background-color: rgb(258, 176, 62);
+  color: white;
+}
+
+.navbar li a:hover, .navbar .dropdown:hover .dropbtn {
+    background-color: rgb(248, 176, 62);
+    color: white;
 }
 
 /*Présentation des liens des menus déroulant de certains objets de la liste/barre de navigation*/
@@ -208,6 +297,8 @@ ul.navbar {
   vertical-align: text-top;
 }
 
+
+
 /*
 /*Boîte flex CSS contenant les informations pour contacter et des liens spécifiques vers d'autres pages du site placé en bas du site
 .footer{
@@ -254,6 +345,35 @@ iframe.GForm{
 	height: 500px;
 }
 
+#myLinks {
+  display: none;
+}
+
+#myLinksInformation {
+  display: none;
+}
+
+#myLinksCompte {
+  display: none;
+}
+
+
+#navbar{
+  display:block;
+  overflow: hidden;
+    display: flex;
+    background-color: #505050;
+}
+
+#navbarMobile {
+  display:none;
+}
+
+@media screen and not (max-width: 1000px) {
+  #navbar{
+    display: flex;
+  }
+}
 
 /*Change la disposition complète de la page pour s'adapter aux tailles du navigateur (par exemple en fonction de l'appareil utilisé), tous sera disposé en une colonne*/
 @media screen and (max-width: 1000px) {
@@ -263,6 +383,15 @@ iframe.GForm{
         text-align: center;
 				width: relative;
 				height: relative;
+    }
+
+
+    #navbarMobile {
+      display:block;
+    }
+
+    #navbar{
+      display:none;
     }
 
     map, .likeImg, img:not(.imgNavHea){
@@ -370,6 +499,7 @@ a:hover { color: #f7af3e;}
 .prev, .next {
   cursor: pointer;
   position: absolute;
+  z-index: 1;
   top: 50%;
   width: auto;
   margin-top: -22px;
@@ -426,7 +556,8 @@ a:hover { color: #f7af3e;}
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: rgb(258, 176, 62);
+  color: white;
 }
 
 /* Fading animation */
@@ -515,4 +646,8 @@ map area{
 img.linkedInAboutUs{
   width: 100px;
   height: 100px;
+}
+
+.navbar, .navbar *{
+  z-index : 9999
 }

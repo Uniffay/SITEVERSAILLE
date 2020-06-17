@@ -29,9 +29,11 @@ html{
 }
 
 * {
+    transition: 0.3s;
     box-sizing: border-box;
     font-family: "Dyno","Cycle", Arial, sans-serif;
 }
+
 h1,h2 {
 	font-family: "Dyno", Arial, sans-serif;
 	float:middle;
@@ -92,7 +94,17 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 0.8;
 }
+
+
+.sticky:hover {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+}
+
 
 .stickyTwo{
   position: fixed;
@@ -241,6 +253,31 @@ ul.navbar, .topnav ul {
     display: block;
 }
 
+.dropdown:hover > .dropdown-content a:nth-child(1){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: -150ms;
+}
+
+.navbar li:hover > .dropdown a:nth-child(1), .navbar li:hover > .dropdown-content a:nth-child(1), .topnav li:hover > .dropdown a:nth-child(1), .topnav li:hover > .dropdown-content a:nth-child(1){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 0ms;
+}
+
+.navbar li:hover > .dropdown a:nth-child(2), .navbar li:hover > .dropdown-content a:nth-child(2), .topnav li:hover > .dropdown a:nth-child(2), .topnav li:hover > .dropdown-content a:nth-child(2){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 150ms;
+}
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+    background-color: #505050;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 /*Boîte de flex CSS contenant, attribuant et organisant l'espace spécifique de boîtes flex CSS "main" et "side"*/
 .row{
     display: flex;
@@ -367,6 +404,8 @@ iframe.GForm{
 
 #navbarMobile {
   display:none;
+  transition: 0.3s;
+  opacity: 0;
 }
 
 @media screen and not (max-width: 1000px) {
@@ -387,6 +426,8 @@ iframe.GForm{
 
 
     #navbarMobile {
+      transition: 0.3s;
+      opacity: 1;
       display:block;
     }
 

@@ -10,6 +10,10 @@
   } ?>
   <!--Partie gauche du milieu de la page-->
   <main>
+    <div class="row">
+      <div class="main">
+
+
     <h1><?php echo Chateau_galerie ?></h1>
     <div class="contenu_carou_auto">
       <div class="caroussel-image">
@@ -37,6 +41,9 @@
       </div>
     </div>
 
+    </div>
+  </div>
+  </div>
   </main>
 
   <?php include_once('includes/footer.php') ?>

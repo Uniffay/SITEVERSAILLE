@@ -8,7 +8,7 @@ if (!empty($_GET["lang"])) {
   }
 }
 
-if (!isset($_COOKIE["lang"])) {
+if (!isset($_COOKIE["lang"]) || empty($_COOKIE["lang"])) {
   setcookie("lang", "fr");
 }
 

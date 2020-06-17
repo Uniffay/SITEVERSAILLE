@@ -7,7 +7,8 @@ session_start();
 <body>
   <link rel="stylesheet" href="login.css" media="screen" type="text/css" />
     <?php include_once('includes/navbar.php') ?>
-
+    <div class="row">
+      <div class="main">
     <div id="container">
         <!-- zone de connexion -->
 
@@ -28,6 +29,8 @@ session_start();
             }
             ?>
         </form>
+    </div>
+    </div>
     </div>
     <?php include_once('includes/footer.php') ?>
 </body>

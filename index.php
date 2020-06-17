@@ -18,7 +18,7 @@
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
-          <img src="Images/versaille.jpg" style="width:100%">
+          <img src="Images/Versaille.jpg" style="width:100%">
           <div class="text">Versailles</div>
         </div>
 
